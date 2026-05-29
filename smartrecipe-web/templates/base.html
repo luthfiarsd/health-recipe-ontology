@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SmartRecipe — Pencarian semantik resep masakan Indonesia berbasis kondisi kesehatan menggunakan teknologi Semantic Web (RDF, Ontologi, SPARQL)">
+    
+    <title>{% block title %}SmartRecipe{% endblock %} — Resep Sehat Indonesia</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50:  '#fef3e2',
+                            100: '#fde4b8',
+                            200: '#fbd08a',
+                            300: '#f9bb5c',
+                            400: '#f7a838',
+                            500: '#f59620',
+                            600: '#f08b1c',
+                            700: '#e97c17',
+                            800: '#e26d12',
+                            900: '#d6540a',
+                        },
+                        dark: {
+                            50:  '#f0f0f5',
+                            100: '#d9dae5',
+                            200: '#b8bad0',
+                            300: '#9699b8',
+                            400: '#7b7fa5',
+                            500: '#616593',
+                            600: '#575a85',
+                            700: '#4a4c72',
+                            800: '#3e3f60',
+                            900: '#1a1b2e',
+                            950: '#12131f',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-dark-950 text-gray-100 font-sans min-h-screen flex flex-col antialiased">
+
+    <!-- ═══ Navbar ═══ -->
+    <nav class="navbar-glass sticky top-0 z-50 border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <a href="/" class="flex items-center gap-3 group" id="nav-logo">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center shadow-lg shadow-primary-500/20 group-hover:shadow-primary-500/40 transition-shadow">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold bg-gradient-to-r from-primary-300 to-primary-500 bg-clip-text text-transparent">SmartRecipe</span>
+                        <span class="hidden sm:block text-[10px] text-gray-500 -mt-1 tracking-widest uppercase">Semantic Web</span>
+                    </div>
+                </a>
+
+                <!-- Nav Info -->
+                <div class="hidden md:flex items-center gap-4">
+                    <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-dark-800/60 border border-white/5 text-xs text-gray-400">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        RDF + SPARQL + Ontologi
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══ Main Content ═══ -->
+    <main class="flex-1">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- ═══ Footer ═══ -->
+    <footer class="border-t border-white/5 bg-dark-950/80 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-400/20 to-primary-600/20 flex items-center justify-center border border-primary-500/20">
+                        <svg class="w-4 h-4 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <p class="text-sm text-gray-500">
+                        SmartRecipe &copy; 2026 — Proyek Akhir Mata Kuliah <span class="text-gray-400">Semantic Web</span>
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 text-xs text-gray-600">
+                    <span class="px-2 py-1 rounded bg-dark-800/50 border border-white/5">RDF Turtle</span>
+                    <span class="px-2 py-1 rounded bg-dark-800/50 border border-white/5">SPARQL 1.1</span>
+                    <span class="px-2 py-1 rounded bg-dark-800/50 border border-white/5">Apache Jena Fuseki</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+
+{% block title %}Beranda{% endblock %}
+
+{% block content %}
+<!-- ═══ Hero Section ═══ -->
+<section class="relative overflow-hidden">
+    <!-- Background Glow -->
+    <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-20 right-1/4 w-80 h-80 bg-primary-600/5 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
+        <!-- Title -->
+        <div class="text-center mb-10">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-500/10 border border-primary-500/20 mb-6">
+                <svg class="w-4 h-4 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+                <span class="text-sm text-primary-300 font-medium">Pencarian Semantik berbasis Ontologi</span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4">
+                Temukan Resep
+                <span class="bg-gradient-to-r from-primary-300 via-primary-400 to-primary-500 bg-clip-text text-transparent"> Sehat</span>
+                <br>untuk Kondisimu
+            </h1>
+            <p class="text-lg text-gray-400 max-w-2xl mx-auto">
+                Cari resep masakan Indonesia yang aman berdasarkan kondisi kesehatanmu.
+                Ditenagai oleh <span class="text-gray-300 font-medium">RDF</span>, <span class="text-gray-300 font-medium">Ontologi</span>, dan <span class="text-gray-300 font-medium">SPARQL</span>.
+            </p>
+        </div>
+
+        <!-- ═══ Search & Filter Bar ═══ -->
+        <div class="glass-card max-w-4xl mx-auto p-6 rounded-2xl mb-4" id="search-section">
+            <div class="flex flex-col gap-4">
+                <!-- Search Input -->
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                        <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </div>
+                    <input 
+                        type="text" 
+                        id="search-input" 
+                        placeholder="Cari resep... contoh: rendang, soto, gulai"
+                        class="w-full pl-12 pr-4 py-3.5 rounded-xl bg-dark-800/80 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/50 transition-all text-sm"
+                    >
+                </div>
+
+                <!-- Filter Row -->
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <!-- Kondisi Kesehatan -->
+                    <div class="flex-1">
+                        <label class="block text-xs text-gray-500 mb-1.5 ml-1 font-medium tracking-wide uppercase">Kondisi Kesehatan</label>
+                        <select id="filter-condition" class="w-full px-4 py-3 rounded-xl bg-dark-800/80 border border-white/10 text-white focus:outline-none focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/50 transition-all text-sm appearance-none cursor-pointer select-custom">
+                            <option value="">Semua Kondisi</option>
+                            <option value="asam_urat">🦴 Asam Urat</option>
+                            <option value="hipertensi">❤️ Hipertensi</option>
+                            <option value="kolesterol">🫀 Kolesterol Tinggi</option>
+                            <option value="alergi_kacang">🥜 Alergi Kacang</option>
+                        </select>
+                    </div>
+
+                    <!-- Kategori Bahan -->
+                    <div class="flex-1">
+                        <label class="block text-xs text-gray-500 mb-1.5 ml-1 font-medium tracking-wide uppercase">Kategori Bahan</label>
+                        <select id="filter-category" class="w-full px-4 py-3 rounded-xl bg-dark-800/80 border border-white/10 text-white focus:outline-none focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/50 transition-all text-sm appearance-none cursor-pointer select-custom">
+                            <option value="">Semua Kategori</option>
+                            {% for cat in categories %}
+                            <option value="{{ cat }}">{{ cat | capitalize }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- Search Button -->
+                    <div class="flex items-end">
+                        <button id="btn-search" class="w-full sm:w-auto px-8 py-3 rounded-xl bg-gradient-to-r from-primary-500 to-primary-600 text-white font-semibold hover:from-primary-400 hover:to-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/50 transition-all shadow-lg shadow-primary-500/20 hover:shadow-primary-500/40 text-sm">
+                            <span class="flex items-center gap-2 justify-center">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                </svg>
+                                Cari
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ═══ Error Message ═══ -->
+{% if error_msg %}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+    <div class="bg-red-500/10 border border-red-500/20 rounded-xl p-4 flex items-start gap-3" id="error-banner">
+        <svg class="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"/>
+        </svg>
+        <p class="text-sm text-red-300">{{ error_msg }}</p>
+    </div>
+</div>
+{% endif %}
+
+<!-- ═══ Results Section ═══ -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <!-- Results Header -->
+    <div class="flex items-center justify-between mb-6">
+        <div class="flex items-center gap-3">
+            <h2 class="text-xl font-bold text-white">Hasil Pencarian</h2>
+            <span id="results-count" class="px-3 py-1 rounded-full bg-primary-500/10 border border-primary-500/20 text-xs text-primary-300 font-medium">
+                {{ recipes | length }} resep
+            </span>
+        </div>
+        <div id="loading-spinner" class="hidden">
+            <div class="flex items-center gap-2 text-sm text-gray-400">
+                <svg class="animate-spin h-4 w-4 text-primary-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                Memuat...
+            </div>
+        </div>
+    </div>
+
+    <!-- Recipe Grid -->
+    <div id="recipe-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+        {% for recipe in recipes %}
+        <a href="/resep/{{ quote(recipe.menu, safe='') }}" 
+           class="recipe-card glass-card rounded-xl overflow-hidden group hover:border-primary-500/30 transition-all duration-300"
+           id="recipe-card-{{ loop.index }}">
+            
+            <!-- Card Header with Gradient -->
+            <div class="h-32 bg-gradient-to-br from-primary-500/20 via-primary-600/10 to-dark-800 flex items-center justify-center relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-t from-dark-900/80 to-transparent"></div>
+                <span class="text-5xl relative z-10 group-hover:scale-110 transition-transform duration-300">
+                    {% if recipe.kategori == 'ayam' %}🍗
+                    {% elif recipe.kategori == 'ikan' %}🐟
+                    {% elif recipe.kategori == 'kambing' %}🐑
+                    {% elif recipe.kategori == 'sapi' %}🥩
+                    {% elif recipe.kategori == 'tahu' %}🧈
+                    {% elif recipe.kategori == 'telur' %}🥚
+                    {% elif recipe.kategori == 'tempe' %}🫘
+                    {% elif recipe.kategori == 'udang' %}🦐
+                    {% else %}🍽️
+                    {% endif %}
+                </span>
+            </div>
+
+            <!-- Card Content -->
+            <div class="p-4">
+                <h3 class="font-semibold text-white text-sm mb-2 line-clamp-2 group-hover:text-primary-300 transition-colors">
+                    {{ recipe.namaMenu }}
+                </h3>
+                <div class="flex items-center justify-between">
+                    <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-dark-700/60 text-xs text-gray-400 border border-white/5">
+                        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                        </svg>
+                        {{ recipe.kategori | capitalize }}
+                    </span>
+                    <span class="flex items-center gap-1 text-xs text-red-400/80">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                        {{ recipe.loves }}
+                    </span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
+    <!-- Empty State -->
+    <div id="empty-state" class="{% if recipes %}hidden{% endif %} text-center py-16">
+        <div class="w-20 h-20 mx-auto mb-4 rounded-2xl bg-dark-800/50 border border-white/5 flex items-center justify-center">
+            <svg class="w-10 h-10 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-gray-400 mb-2">Tidak ada resep ditemukan</h3>
+        <p class="text-sm text-gray-600">Coba ubah kata kunci atau filter pencarian</p>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Mapping emoji per kategori untuk dynamic rendering
+    const CATEGORY_EMOJI = {
+        'ayam': '🍗', 'ikan': '🐟', 'kambing': '🐑', 'sapi': '🥩',
+        'tahu': '🧈', 'telur': '🥚', 'tempe': '🫘', 'udang': '🦐'
+    };
+
+    // Inisialisasi SmartRecipe search handler
+    document.addEventListener('DOMContentLoaded', () => {
+        initSearch(CATEGORY_EMOJI);
+    });
+</script>
+{% endblock %}
