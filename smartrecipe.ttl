@@ -1,4 +1,4 @@
-@prefix data: <http://smartrecipe.org/data#> .
+﻿@prefix data: <http://smartrecipe.org/data#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11792,7 +11792,7 @@ data:resep_Ayam_Goreng_Bawang_Khas_Batam a sr:MenuMasakan ;
         data:bahan_tepung_maizena ;
     sr:hasLoves 237 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4345660-ayam-goreng-bawang-khas-batam"^^xsd:anyURI ;
-    sr:hasSteps "Cuci ayam hingga bersih kemudian tiriskan masukan bumbu halus,garam,kaldu jamur tepung maizena&telur aduk hingga tercampur rata--Diamkan kurang lebih 30 menit di kulkas supaya bumbu meresap--Panaskan minyak goreng kemudian goreng bawang putih hingga kuning&garing tiriskan--Kemudian goreng ayam hingga coklat keemasan&matang merata *saya pakai api kecil saja* untuk ayam nya goreng bertahap jangan sekali goreng semua nya angkat&tiriskan--Ayam goreng bawang siap di sajikan😊--" .
+    sr:hasSteps "Cuci ayam hingga bersih kemudian tiriskan masukan bumbu halus,garam,kaldu jamur tepung maizena&telur aduk hingga tercampur rata--Diamkan kurang lebih 30 menit di kulkas supaya bumbu meresap--Panaskan minyak goreng kemudian goreng bawang putih hingga kuning&garing tiriskan--Kemudian goreng ayam hingga coklat keemasan&matang merata *saya pakai api kecil saja* untuk ayam nya goreng bertahap jangan sekali goreng semua nya angkat&tiriskan--Ayam goreng bawang siap di sajikan--" .
 
 data:resep_Ayam_Goreng_Kecap a sr:MenuMasakan ;
     rdfs:label "Ayam Goreng Kecap"@id ;
@@ -11811,7 +11811,7 @@ data:resep_Ayam_Goreng_Kecap a sr:MenuMasakan ;
         data:bahan_ayam_Potong_potong ;
     sr:hasLoves 218 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4379354-ayam-goreng-kecap"^^xsd:anyURI ;
-    sr:hasSteps "Lumuri ayam dg air jeruknipus dan garam, remas2, bilas bersih. Ungkep ayam dg garam dan merica. Boleh jg lgs goreng tp potong agak kecil.--Setelah diungkep, goreng ayam hngga sedikit kecokelatan, angkat.--Panaskan secukupnya minyak, tumis bawang putih dan jahe, masukkan bawang bombay, tumis hingga harum. Masukkan cabe merah iris, ayam goreng, bubuhi gula garam, merica dan kecap, tuangair. Masak hingga kuah mengental, sesaat sblm diangkat, masukkan daun bawang.--Angkat ayam dan sajikan😋--" .
+    sr:hasSteps "Lumuri ayam dg air jeruknipus dan garam, remas2, bilas bersih. Ungkep ayam dg garam dan merica. Boleh jg lgs goreng tp potong agak kecil.--Setelah diungkep, goreng ayam hngga sedikit kecokelatan, angkat.--Panaskan secukupnya minyak, tumis bawang putih dan jahe, masukkan bawang bombay, tumis hingga harum. Masukkan cabe merah iris, ayam goreng, bubuhi gula garam, merica dan kecap, tuangair. Masak hingga kuah mengental, sesaat sblm diangkat, masukkan daun bawang.--Angkat ayam dan sajikan--" .
 
 data:resep_Ayam_Woku_Manado a sr:MenuMasakan ;
     rdfs:label "Ayam Woku Manado"@id ;
@@ -11854,7 +11854,7 @@ data:resep_Bakso_Sapi_Homemade_bs_daging_frozen_bs_fresh a sr:MenuMasakan ;
         data:bahan_sledry ;
     sr:hasLoves 269 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3396697-bakso-sapi-homemade-bs-daging-frozen-bs-fresh"^^xsd:anyURI ;
-    sr:hasSteps "Pecahkan es batu campur dg air es.. (INI TIDAK DI PAKAI SEMUA YA) yg stengah biarkan ttp berukuran besar--Giling daging + sledry + garam + merica + penyedap + es batu plih yg ukuran kecil\"(sebesar es balok yg di cetakn itu)+ air es bberapa sendok.. Giling hingga halus.. (sya pakai chooper kecil jd aya choop 3x.. Stiap kliatan nggumpel tndax perlu di tambhkn 1 - 2 sendok air es biar g nyiksa chooperx) giling hingga bnr\" halus ya lbh enak pke food processor ( tapin jangan menambhakn terlalu banyak air nnti benyek. Ini hasil gilingan ttp halus padat bukn benyek 😉--Klo dagingx udah alus masukan kanji + maizena uleni pakai tangan hingga bnr\" rata sya ulen agak lama biar kenyel, tp g perlu kalis jg sh ya ini bukn adonan roti 😂😂.. klo mau blh colek dikit test rasa.. Klo udh pas asin gurihx lanjut pansakan air--Panaskan air pakai api sedang sj, tmbhkan garam tjuanx hsil rebusan bksox biar ga anyep.. klo udah kliatan mrintis\"airx.. clutut\"kan bakso pake tangan kanan.. Sekrup pake sendok langsung selupin di dalam air (sendokx hrs ikut nyelup jg biar baksox lepas sndri dr sendokx) lakukan hingga habis dan rebus hingga mengapung, Sisa es batu + air esx tadi jangan di buang.. Stelah bakso mengambang lngsung tiriskan n rendam air es ini.. Ini hg bs bkin kenyal..--Blh di tmbh 1 putih telur----------" .
+    sr:hasSteps "Pecahkan es batu campur dg air es.. (INI TIDAK DI PAKAI SEMUA YA) yg stengah biarkan ttp berukuran besar--Giling daging + sledry + garam + merica + penyedap + es batu plih yg ukuran kecil\"(sebesar es balok yg di cetakn itu)+ air es bberapa sendok.. Giling hingga halus.. (sya pakai chooper kecil jd aya choop 3x.. Stiap kliatan nggumpel tndax perlu di tambhkn 1 - 2 sendok air es biar g nyiksa chooperx) giling hingga bnr\" halus ya lbh enak pke food processor ( tapin jangan menambhakn terlalu banyak air nnti benyek. Ini hasil gilingan ttp halus padat bukn benyek --Klo dagingx udah alus masukan kanji + maizena uleni pakai tangan hingga bnr\" rata sya ulen agak lama biar kenyel, tp g perlu kalis jg sh ya ini bukn adonan roti .. klo mau blh colek dikit test rasa.. Klo udh pas asin gurihx lanjut pansakan air--Panaskan air pakai api sedang sj, tmbhkan garam tjuanx hsil rebusan bksox biar ga anyep.. klo udah kliatan mrintis\"airx.. clutut\"kan bakso pake tangan kanan.. Sekrup pake sendok langsung selupin di dalam air (sendokx hrs ikut nyelup jg biar baksox lepas sndri dr sendokx) lakukan hingga habis dan rebus hingga mengapung, Sisa es batu + air esx tadi jangan di buang.. Stelah bakso mengambang lngsung tiriskan n rendam air es ini.. Ini hg bs bkin kenyal..--Blh di tmbh 1 putih telur----------" .
 
 data:resep_Bakso_Sapi_Pakai_Blender a sr:MenuMasakan ;
     rdfs:label "Bakso Sapi (Pakai Blender)"@id ;
@@ -11874,7 +11874,7 @@ data:resep_Bakso_Sapi_Pakai_Blender a sr:MenuMasakan ;
     sr:hasSteps "Siapkan semua bahan, cincang daging sapi kecil2.--Masukkan daging cincang kedalam blender, tambahkan es batu (es nya di haluskan juga ya)--Proses sampai halus--Tanbahkan putih telur. Blender sampai rata. Tambahkan tepung tapioka, bawang putih, garam, merica dan baking powder. Proses lagi sampai tercampur rata--Siapkan baskom besar, masukkan adonan bakso, uleni, dan banting2 adonan sampai bener2 menyatu dan teksturnya lembut seperti pasta--Bulat2kan--Didihkan air, sampai benar2 mendidih, kecilkan api masukkan bulatan2 bakso. Jika sudah mengapung langsung angkate--Lalu taruh d air es--Tiriskan. Siap di olah, bisa dijadikan bakso kuah, bakso goreng, bakso bakar dll--Siap di olah, bisa dijadikan bakso kuah, bakso goreng, bakso bakar dll--" .
 
 data:resep_Chilli_Tuna_Puff_Kilat_Super_Yummy a sr:MenuMasakan ;
-    rdfs:label "Chilli Tuna Puff Kilat Super Yummy 😙"@id ;
+    rdfs:label "Chilli Tuna Puff Kilat Super Yummy "@id ;
     dcterms:identifier "REC_IKAN_001" ;
     dcterms:subject "ikan"@id ;
     sr:hasCategory data:kategori_ikan ;
@@ -12060,7 +12060,7 @@ data:resep_Menu_dinner_trio_tumis_pokcoy_ayam_bawang_putih_bawang_merah a sr:Men
         data:bahan_pokcoy ;
     sr:hasLoves 170 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4355199-menu-dinner-trio-tumis-pokcoy-ayam-bawang-putih-bawang-merah"^^xsd:anyURI ;
-    sr:hasSteps "⭐️ Tumis pokcoy: pokcoy cuci bersih, potong. Panaskan wajan, masukkan bawang putih lalu tumis sampai harum--Masukkan pokcoy, kecap asin, air, gula, garam. Aduk rata sekitar 30 detik. Angkat--⭐️ Ayam bawang putih: campurkan semua dan marinasi di kulkas selama bbrp jam (saya 8 jam karena pagi bikin, pulang kantor masak)--Beri sedikit minyak, tumis hingga agak sedikit gosong, angkat--⭐️ Tumis bawang merah: bawang merah diiris tipis, dan cabe iris miring--Beri minyak yg agak banyak (mgkn sekitar 4-5 sdm) lalu tumis bawang merah, cabe lalu aduk sampe harum. Masukkan gula, garam dan kaldu jamur. Aduk2 dan cicipi rasa. Jika sudah pas sisihkan--" .
+    sr:hasSteps "⭐ Tumis pokcoy: pokcoy cuci bersih, potong. Panaskan wajan, masukkan bawang putih lalu tumis sampai harum--Masukkan pokcoy, kecap asin, air, gula, garam. Aduk rata sekitar 30 detik. Angkat--⭐ Ayam bawang putih: campurkan semua dan marinasi di kulkas selama bbrp jam (saya 8 jam karena pagi bikin, pulang kantor masak)--Beri sedikit minyak, tumis hingga agak sedikit gosong, angkat--⭐ Tumis bawang merah: bawang merah diiris tipis, dan cabe iris miring--Beri minyak yg agak banyak (mgkn sekitar 4-5 sdm) lalu tumis bawang merah, cabe lalu aduk sampe harum. Masukkan gula, garam dan kaldu jamur. Aduk2 dan cicipi rasa. Jika sudah pas sisihkan--" .
 
 data:resep_Mie_Ayam a sr:MenuMasakan ;
     rdfs:label "Mie Ayam"@id ;
@@ -12202,7 +12202,7 @@ data:resep_Nasi_Kebuli_Kambing_Nikmat a sr:MenuMasakan ;
         data:bahan_susu_plainfull_cream ;
     sr:hasLoves 168 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/2739948-nasi-kebuli-kambing-nikmat"^^xsd:anyURI ;
-    sr:hasSteps "Panaskan minyak samin dalam panci biasa atau panci pressto, kemudian tumis bumbu halus hingga wangi--Bila di rasa sudah wangi si bumbu dan benar\"matang masukan kambing, garam,kaldu bubuk, aduk lalu masukkan air dan susu. Kemudin masukkan bumbu tabur dan bawang bombay yg sudah di potong\", tutup presto masak dengan api besar dulu. Bila uap presto mulai keluar langsung kecil kan api masak hingga 1 jam 30 menit (sampai empuk) tetapi bila tidak memasak dgn presto langsung masak dengan api kecil saja namun bisa lebih lama waktu memasaknya. Sekitar 2-3 jam.--Sembari menunggu kambing empuk masak dulu Acar dan Bawang goreng untuk pelengkapnya. (Cek di resep saya yg lain) bawang goreng & acar nanas timun--Kemudian bila suka bisa tambahkan bahan pelengkap juga seperti bawang bombai,tomat,bawang putih, dan cabai hijau untuk di goreng dengan sedikit minyak samin atau bisa juga mentega.--Jika sudah empuk si kambing coba rasakan kuah kaldunya. Bila sudah enak masak beras dengan kuah kaldu tersebut. Jangan lupa cuci berasnya dulu sebelum di masak.--Karena saya pakai beras basmati, takarannya 1kg beras air kaldunya 2 liter.--Saya masak dengan rice cooker, jd kaldunya saya saring dulu sebelum tercampur dengan beras. Agar tidak ribet nanti misah\"in rempah\" di dalam nasi. Jangan lupa angkat dagingnya dan taburi lada serta garam sedikit saja untuk nanti mau di bakar atau goreng bebas. Klo suka manis bisa beri sedikit kecap. Atau bisa di bumbui dengan apa saja sesuai selera kemudian nanti di bakar.--Ini hasil beras yg sudah matang dengan rice cooker.--Bila sudah lengkap semua, bisa di tata sebagus mungkin jangan lupa di tabur kismis, bawang goreng agar wangi dan menggugah selera untuk disantap bersama keluarga 😋--Oya untuk daging kambing lebih bagus dengan kambing muda agar cepat empuk dan nikmat. Bagiannya yg enak buat nasi kebuli adalah tulang iga dan buntut. Duh nikmat banget deh..--Minyak samin juga bisa aja klo mau di ganti mentega. Tapi beda wanginya.--Kemudian jangan ragu masukin rempah\" karena nasi kebuli ini harus berani bumbu kalau mau nikmat! Lebih dari takaran saya juga bisa. Pokoknya kreasikan sendiri saja. Klo orang betawi arab biasanya suka nambahin bumbu gule instan. Biar medok rasanya. Cuma kalau saya tidak pakai karena ini rasanya udh arab banget buat saya. Wangi dan soft gak bikin eneg. Malah bikin nambah mulu 😂 apa lagi ada cabai hijau yg di goreng dengan minyak samin sedikit. Haduh pedes nikmat--" .
+    sr:hasSteps "Panaskan minyak samin dalam panci biasa atau panci pressto, kemudian tumis bumbu halus hingga wangi--Bila di rasa sudah wangi si bumbu dan benar\"matang masukan kambing, garam,kaldu bubuk, aduk lalu masukkan air dan susu. Kemudin masukkan bumbu tabur dan bawang bombay yg sudah di potong\", tutup presto masak dengan api besar dulu. Bila uap presto mulai keluar langsung kecil kan api masak hingga 1 jam 30 menit (sampai empuk) tetapi bila tidak memasak dgn presto langsung masak dengan api kecil saja namun bisa lebih lama waktu memasaknya. Sekitar 2-3 jam.--Sembari menunggu kambing empuk masak dulu Acar dan Bawang goreng untuk pelengkapnya. (Cek di resep saya yg lain) bawang goreng & acar nanas timun--Kemudian bila suka bisa tambahkan bahan pelengkap juga seperti bawang bombai,tomat,bawang putih, dan cabai hijau untuk di goreng dengan sedikit minyak samin atau bisa juga mentega.--Jika sudah empuk si kambing coba rasakan kuah kaldunya. Bila sudah enak masak beras dengan kuah kaldu tersebut. Jangan lupa cuci berasnya dulu sebelum di masak.--Karena saya pakai beras basmati, takarannya 1kg beras air kaldunya 2 liter.--Saya masak dengan rice cooker, jd kaldunya saya saring dulu sebelum tercampur dengan beras. Agar tidak ribet nanti misah\"in rempah\" di dalam nasi. Jangan lupa angkat dagingnya dan taburi lada serta garam sedikit saja untuk nanti mau di bakar atau goreng bebas. Klo suka manis bisa beri sedikit kecap. Atau bisa di bumbui dengan apa saja sesuai selera kemudian nanti di bakar.--Ini hasil beras yg sudah matang dengan rice cooker.--Bila sudah lengkap semua, bisa di tata sebagus mungkin jangan lupa di tabur kismis, bawang goreng agar wangi dan menggugah selera untuk disantap bersama keluarga --Oya untuk daging kambing lebih bagus dengan kambing muda agar cepat empuk dan nikmat. Bagiannya yg enak buat nasi kebuli adalah tulang iga dan buntut. Duh nikmat banget deh..--Minyak samin juga bisa aja klo mau di ganti mentega. Tapi beda wanginya.--Kemudian jangan ragu masukin rempah\" karena nasi kebuli ini harus berani bumbu kalau mau nikmat! Lebih dari takaran saya juga bisa. Pokoknya kreasikan sendiri saja. Klo orang betawi arab biasanya suka nambahin bumbu gule instan. Biar medok rasanya. Cuma kalau saya tidak pakai karena ini rasanya udh arab banget buat saya. Wangi dan soft gak bikin eneg. Malah bikin nambah mulu  apa lagi ada cabai hijau yg di goreng dengan minyak samin sedikit. Haduh pedes nikmat--" .
 
 data:resep_Nasi_Kebuli_Mejikom_kitaberbagi a sr:MenuMasakan ;
     rdfs:label "Nasi Kebuli Mejikom #kitaberbagi"@id ;
@@ -12253,7 +12253,7 @@ data:resep_Nasi_Kebuli_Sapi_Magic_com a sr:MenuMasakan ;
         data:bahan_jari_kayu_manis ;
     sr:hasLoves 249 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4260620-nasi-kebuli-sapi-magic-com"^^xsd:anyURI ;
-    sr:hasSteps "Cuci bersih daging kemudian rebus hingga mendidih buang air rebusan nya&bilas hingga bersih kemudian rebus kembali hingga daging empuk,sisihkan--Panaskan margarine tumis bumbu halus hingga harum--Tambahkan bubuk kari,kayu manis&bumbu kari instan aduk rata--Kemudian masukan daging beserta air rebusan nya--Masak hingga bumbu meresap ke daging--Campurkan tumisan daging dengan beras yang telah di cuci aduk rata kemudian tekan tombol cook magic com di tengah proses memasak aduk nasi supaya bumbu nya merata *untuk takaran air nya bisa di sesuaikan seperti kita memasak nasi biasa--Begini penampakan nasi setelah matang--Sajikan nasi kebuli dengan pelengkap 😊--Nb:bila tidak punya bubuk kari bisa kita siap kan sendiri rempah pengganti blender hingga halus 👉 2 butir pekak/bunga lawang,2 buah kapulaga ambil biji nya saja,5 butir cengkeh,1/2 sdt jintan,2 sdt kayu manis bubuk--" .
+    sr:hasSteps "Cuci bersih daging kemudian rebus hingga mendidih buang air rebusan nya&bilas hingga bersih kemudian rebus kembali hingga daging empuk,sisihkan--Panaskan margarine tumis bumbu halus hingga harum--Tambahkan bubuk kari,kayu manis&bumbu kari instan aduk rata--Kemudian masukan daging beserta air rebusan nya--Masak hingga bumbu meresap ke daging--Campurkan tumisan daging dengan beras yang telah di cuci aduk rata kemudian tekan tombol cook magic com di tengah proses memasak aduk nasi supaya bumbu nya merata *untuk takaran air nya bisa di sesuaikan seperti kita memasak nasi biasa--Begini penampakan nasi setelah matang--Sajikan nasi kebuli dengan pelengkap --Nb:bila tidak punya bubuk kari bisa kita siap kan sendiri rempah pengganti blender hingga halus  2 butir pekak/bunga lawang,2 buah kapulaga ambil biji nya saja,5 butir cengkeh,1/2 sdt jintan,2 sdt kayu manis bubuk--" .
 
 data:resep_Orek_tempe_basah_bumbu_ulek a sr:MenuMasakan ;
     rdfs:label "Orek tempe basah bumbu ulek"@id ;
@@ -12274,7 +12274,7 @@ data:resep_Orek_tempe_basah_bumbu_ulek a sr:MenuMasakan ;
         data:bahan_cabe_merah_kritingcabe_rawit ;
     sr:hasLoves 452 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3989566-orek-tempe-basah-bumbu-ulek"^^xsd:anyURI ;
-    sr:hasSteps "Goreng tempe yg sdh di potong2 dlm minyak panas hingga matang,jgn smpe kering yah--Tumis bumbu halus hingga harum dan benar2 matang,setelah bumbu matang tuangi air secukupnya,tuang kecap manis,gula,garam dan penyedap,tes rasanya--Jika rasa sdh pas masukan tempe dan cabe hijau lalu aduk hingga rata dan bumbu meresap,angkat dan sajikan 👌😊--" .
+    sr:hasSteps "Goreng tempe yg sdh di potong2 dlm minyak panas hingga matang,jgn smpe kering yah--Tumis bumbu halus hingga harum dan benar2 matang,setelah bumbu matang tuangi air secukupnya,tuang kecap manis,gula,garam dan penyedap,tes rasanya--Jika rasa sdh pas masukan tempe dan cabe hijau lalu aduk hingga rata dan bumbu meresap,angkat dan sajikan --" .
 
 data:resep_Perkedel_Tahu_Simple a sr:MenuMasakan ;
     rdfs:label "Perkedel Tahu Simple"@id ;
@@ -12291,7 +12291,7 @@ data:resep_Perkedel_Tahu_Simple a sr:MenuMasakan ;
         data:bahan_tahu_petak ;
     sr:hasLoves 481 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4337985-perkedel-tahu-simple"^^xsd:anyURI ;
-    sr:hasSteps "Giling halus bawang merah+bawang putih+ merica+garam.--Hancurkan tahu, tambahkan bumbu halus, daun seledri, aduk merata. Lalu masukkan terigu sedikit2. Koreksi rasa bl krg asin blh tmbhkan masako/ garam halus. Aduk hingga merata.--Bentuk adonan perkedel hingga adonan habis.--Goreng perkedel dlm minyak panas, jgn lupa dibalik. Angkat dan tiriskan.--Perkedel tahu udh jd, makin enk dicocol dg saus sambal😋--" .
+    sr:hasSteps "Giling halus bawang merah+bawang putih+ merica+garam.--Hancurkan tahu, tambahkan bumbu halus, daun seledri, aduk merata. Lalu masukkan terigu sedikit2. Koreksi rasa bl krg asin blh tmbhkan masako/ garam halus. Aduk hingga merata.--Bentuk adonan perkedel hingga adonan habis.--Goreng perkedel dlm minyak panas, jgn lupa dibalik. Angkat dan tiriskan.--Perkedel tahu udh jd, makin enk dicocol dg saus sambal--" .
 
 data:resep_Pindang_Tongkol_Suwir_Sambal_Matah a sr:MenuMasakan ;
     rdfs:label "Pindang Tongkol Suwir Sambal Matah"@id ;
@@ -12346,10 +12346,10 @@ data:resep_Sempol_udang a sr:MenuMasakan ;
         data:bahan_udang_kupas ;
     sr:hasLoves 249 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3881924-sempol-udang"^^xsd:anyURI ;
-    sr:hasSteps "Blender udang,bawang putih,telur hingga halus lalu tuang di wadah,masukan tepung2an dan bumbu lainnya aduk hingga rata--Didihkan air di wajan,bentuk sempolan di tusukan sate lalu rebus di air mendidih hingga matang,angkat dan tiriskan--Panaskan minyak yg byk di wajan,ambil sempolan lalu celup di bahan pencelup,goreng dlm minyak panas hingga matang,angkat dan sajikan dgn saus sambal 👌😊--" .
+    sr:hasSteps "Blender udang,bawang putih,telur hingga halus lalu tuang di wadah,masukan tepung2an dan bumbu lainnya aduk hingga rata--Didihkan air di wajan,bentuk sempolan di tusukan sate lalu rebus di air mendidih hingga matang,angkat dan tiriskan--Panaskan minyak yg byk di wajan,ambil sempolan lalu celup di bahan pencelup,goreng dlm minyak panas hingga matang,angkat dan sajikan dgn saus sambal --" .
 
 data:resep_Sop_Iga_Sapi_Enaaak_bangeet a sr:MenuMasakan ;
-    rdfs:label "Sop Iga Sapi Enaaak bangeet👌👍"@id ;
+    rdfs:label "Sop Iga Sapi Enaaak bangeet"@id ;
     dcterms:identifier "REC_SAPI_002" ;
     dcterms:subject "sapi"@id ;
     sr:hasCategory data:kategori_sapi ;
@@ -12378,7 +12378,7 @@ data:resep_Sop_Iga_Sapi_Enaaak_bangeet a sr:MenuMasakan ;
     sr:hasSteps "Didihkan secukupnya air, lalu masukan potongan iga sapi, rebus kurleb 5 menit, angkat, tiriskan, buang airnya ya karena perebusan pertama ini utk menghilangkan darah dan sebagian lemak supaya airnya nanti tidak terlalu berlemak. Lalu rebus kembali daging iga dan 2 liter air sampai lunak. (Saya pakai pressure cooker 35 menit). Sisihkan.--Tumis potongan bawang bombay menggunakan margarine sampai harum dan sisinya berkaramel. Masukan bumbu halus, tumis lagi beberapa saat, kemudian masukan kayumanis, cengkeh dan kapulaga, tumis sampai matang.--Masukan tumisan bumbu yg sudah matang kedalam rebusan iga sapi, aduk rata. Nyalakan kompor. (Boleh ditambahkan air jika air menyusut banyak saat proses perebusan). Lalu masukan kentang dan wortel, beri garam, gula dan kaldu bubuk, masak sampai wortel dan kentang matang. Tes rasa. Matikan kompor. Terakhir masukan potongan batang daun bawang, aduk rata kembali. Angkat.--Sajikan hangat bersama nasi dan pelengkapnya.--" .
 
 data:resep_Sup_Baso_Ayam_Enoki_plus_Tahu a sr:MenuMasakan ;
-    rdfs:label "Sup Baso Ayam Enoki plus Tahu 🍲"@id ;
+    rdfs:label "Sup Baso Ayam Enoki plus Tahu "@id ;
     dcterms:identifier "REC_TAHU_004" ;
     dcterms:subject "tahu"@id ;
     sr:hasCategory data:kategori_tahu ;
@@ -12438,7 +12438,7 @@ data:resep_Tahu_aci a sr:MenuMasakan ;
         data:bahan_tepung_tapioka ;
     sr:hasLoves 261 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4374296-tahu-aci"^^xsd:anyURI ;
-    sr:hasSteps "Belah tahu membentuk segitiga lalu rendam dgn air garam,kerok dlm tahu lalu sisihkan tahunya,remas2 isian tahunya,sisihkan--Didihkan air di panci dgn bawang putih halus--Campur tepung dgn kaldu bubuk,garam daun bawang dan isi tahu yg sdh di remas2 td,tuangi air panas td sedikit2,aduk rata_--Panaskan minyak goreng yg byk,ambil tahu lalu beri isian,goreng dlm minyak panas hingga matang,jika tdk mau lgsg di goreng bs di rebus atau di kukus sebentar lalu simpan di kulkas 😊--Klu mau buat stock di kulkas tahu aci bs di rebus sebentar atau di kukus dl yah bru di masukin kulkas,tp buat sy enak lgsg di goreng 👌😊--" .
+    sr:hasSteps "Belah tahu membentuk segitiga lalu rendam dgn air garam,kerok dlm tahu lalu sisihkan tahunya,remas2 isian tahunya,sisihkan--Didihkan air di panci dgn bawang putih halus--Campur tepung dgn kaldu bubuk,garam daun bawang dan isi tahu yg sdh di remas2 td,tuangi air panas td sedikit2,aduk rata_--Panaskan minyak goreng yg byk,ambil tahu lalu beri isian,goreng dlm minyak panas hingga matang,jika tdk mau lgsg di goreng bs di rebus atau di kukus sebentar lalu simpan di kulkas --Klu mau buat stock di kulkas tahu aci bs di rebus sebentar atau di kukus dl yah bru di masukin kulkas,tp buat sy enak lgsg di goreng --" .
 
 data:resep_Tahu_kulit_bumbu_kecap a sr:MenuMasakan ;
     rdfs:label "Tahu kulit bumbu kecap"@id ;
@@ -12480,7 +12480,7 @@ data:resep_Tauco_telor_ceplok a sr:MenuMasakan ;
         data:bahan_petai ;
     sr:hasLoves 150 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3970221-tauco-telor-ceplok"^^xsd:anyURI ;
-    sr:hasSteps "Goreng telur mata sapi--Bawang merah, bawang putih, Tomat, cabe di iris dan pete di bagi dua--Tumis bawang lalu masukkan pete dan cabe, kemudian masukkan tomat dan tauco--Masukkan sedikit air, kecap manis dan gula, masak hingga mendidih--Masukan telor celpok sebentar agar bumbunya meresap ke telur. Cek rasa yahh--Sajikannn...😘😘😘--" .
+    sr:hasSteps "Goreng telur mata sapi--Bawang merah, bawang putih, Tomat, cabe di iris dan pete di bagi dua--Tumis bawang lalu masukkan pete dan cabe, kemudian masukkan tomat dan tauco--Masukkan sedikit air, kecap manis dan gula, masak hingga mendidih--Masukan telor celpok sebentar agar bumbunya meresap ke telur. Cek rasa yahh--Sajikannn...--" .
 
 data:resep_Telur_ceplok_masak_tauco a sr:MenuMasakan ;
     rdfs:label "Telur ceplok masak tauco"@id ;
@@ -12498,7 +12498,7 @@ data:resep_Telur_ceplok_masak_tauco a sr:MenuMasakan ;
         data:bahan_tomat_potong2 ;
     sr:hasLoves 192 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4001496-telur-ceplok-masak-tauco"^^xsd:anyURI ;
-    sr:hasSteps "Tumis bawang duo bawang dan cabe2an hingga harum,masukan tomat,aduk rata,masukan tauco,kecap manis,kecap asin dan gula,aduk rata--Tuangi air secukupnya,tgu mendidih lalu masukan telur ceplok,masak hingga bumbu meresap,jgn lupa tes rasanya,jika rasa sdh pas angkat dan sajikan 👌😊--" .
+    sr:hasSteps "Tumis bawang duo bawang dan cabe2an hingga harum,masukan tomat,aduk rata,masukan tauco,kecap manis,kecap asin dan gula,aduk rata--Tuangi air secukupnya,tgu mendidih lalu masukan telur ceplok,masak hingga bumbu meresap,jgn lupa tes rasanya,jika rasa sdh pas angkat dan sajikan --" .
 
 data:resep_Telur_crispy a sr:MenuMasakan ;
     rdfs:label "Telur crispy"@id ;
@@ -12512,10 +12512,10 @@ data:resep_Telur_crispy a sr:MenuMasakan ;
         data:bahan_tepung_maizena ;
     sr:hasLoves 301 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4024548-telur-crispy"^^xsd:anyURI ;
-    sr:hasSteps "Dadar telur tipis2 lalu potong2 persegi panjang--Campur tepung bumbu dgn maizena,lalu aduk rata--Celup telur ke dlm telur kocok lalu gulingkan ke tepung kering sambil di remas2 pelan,lalu goreng dlm minyak panas hingga kuning keemasan,angkat dan sajikan 👌😊--" .
+    sr:hasSteps "Dadar telur tipis2 lalu potong2 persegi panjang--Campur tepung bumbu dgn maizena,lalu aduk rata--Celup telur ke dlm telur kocok lalu gulingkan ke tepung kering sambil di remas2 pelan,lalu goreng dlm minyak panas hingga kuning keemasan,angkat dan sajikan --" .
 
 data:resep_Tempe_Melet a sr:MenuMasakan ;
-    rdfs:label "Tempe Melet👅"@id ;
+    rdfs:label "Tempe Melet"@id ;
     dcterms:identifier "REC_TEMPE_002" ;
     dcterms:subject "tempe"@id ;
     sr:hasCategory data:kategori_tempe ;
@@ -12552,7 +12552,7 @@ data:resep_Tempe_Orek_Basah a sr:MenuMasakan ;
         data:bahan_jeruk_limau_uk_besar_ambil_airnya ;
     sr:hasLoves 180 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4460395-tempe-orek-basah"^^xsd:anyURI ;
-    sr:hasSteps "Goreng tempe yg sudah dipotong dadu sebentar sampai kecoklatan (jangan sampai kering ya)--Tumis bumbu halus, salam dan lengkuas menggunakan minyak sayur sampai harum dan matang. Lalu masukan air secukupnya. Aduk rata. Biarkan mendidih. Tuang kecap manis dan bumbu lainnya. Aduk rata kembali dan tes rasa.--Masukan tempe yg sudah digoreng tadi, aduk merata. Masak sampai bumbu meresap. Matikan kompor. Beri air perasan jeruk limau. Aduk rata. Siap disajikan.--Sajikan bersama nasi hangat.. sooo yummyy👍👌.--" .
+    sr:hasSteps "Goreng tempe yg sudah dipotong dadu sebentar sampai kecoklatan (jangan sampai kering ya)--Tumis bumbu halus, salam dan lengkuas menggunakan minyak sayur sampai harum dan matang. Lalu masukan air secukupnya. Aduk rata. Biarkan mendidih. Tuang kecap manis dan bumbu lainnya. Aduk rata kembali dan tes rasa.--Masukan tempe yg sudah digoreng tadi, aduk merata. Masak sampai bumbu meresap. Matikan kompor. Beri air perasan jeruk limau. Aduk rata. Siap disajikan.--Sajikan bersama nasi hangat.. sooo yummyy.--" .
 
 data:resep_Tempe_isi_Sambel a sr:MenuMasakan ;
     rdfs:label "Tempe isi Sambel"@id ;
@@ -12898,7 +12898,7 @@ data:bahan_Ayam a sr:BahanBaku ;
     sr:hasProtein "18.2"^^xsd:float .
 
 data:bahan_Ayam_bawang a sr:BahanBaku ;
-    rdfs:label "⭐️ Ayam bawang"@id .
+    rdfs:label "⭐ Ayam bawang"@id .
 
 data:bahan_Ayam_potong_1216 a sr:BahanBaku ;
     rdfs:label "Ayam, potong 12/16"@id .
@@ -12913,10 +12913,10 @@ data:bahan_Bahan_YANG_DI_TABUR a sr:BahanBaku ;
     rdfs:label "Bahan YANG DI TABUR"@id .
 
 data:bahan_Bahan_lapisan a sr:BahanBaku ;
-    rdfs:label "Bahan lapisan👇"@id .
+    rdfs:label "Bahan lapisan"@id .
 
 data:bahan_Bahan_sambal_cocolan a sr:BahanBaku ;
-    rdfs:label "Bahan sambal cocolan👇"@id .
+    rdfs:label "Bahan sambal cocolan"@id .
 
 data:bahan_Bawang_goreng a sr:BahanBaku ;
     rdfs:label "Bawang goreng"@id .
@@ -12947,7 +12947,7 @@ data:bahan_Bumbu_Halus a sr:BahanBaku ;
     rdfs:label "Bumbu Halus"@id .
 
 data:bahan_Bumbu_halus a sr:BahanBaku ;
-    rdfs:label "Bumbu halus👇"@id .
+    rdfs:label "Bumbu halus"@id .
 
 data:bahan_Bumbu_kari_instan a sr:BahanBaku ;
     rdfs:label "Bumbu kari instan"@id .
@@ -13212,7 +13212,7 @@ data:bahan_Telur_Rebus_potong2 a sr:BahanBaku ;
     rdfs:label "Telur Rebus potong2"@id .
 
 data:bahan_Tepung_Bumbu_serbagunakarna_ga_mau_ribet_bikin_tepung_sendiri a sr:BahanBaku ;
-    rdfs:label "Tepung Bumbu serbaguna,karna ga mau ribet bikin tepung sendiri😆"@id .
+    rdfs:label "Tepung Bumbu serbaguna,karna ga mau ribet bikin tepung sendiri"@id .
 
 data:bahan_Tepung_bumbu_ayam_goreng_krispi_instan a sr:BahanBaku ;
     rdfs:label "Tepung bumbu ayam goreng krispi instan"@id .
@@ -13269,7 +13269,7 @@ data:bahan_bumbu_kari_instan a sr:BahanBaku ;
     rdfs:label "bumbu kari instan"@id .
 
 data:bahan_bumbu_rempah_bisa_ganti_4sdm_bumbu_kari_kambing a sr:BahanBaku ;
-    rdfs:label "🍚🍛 bumbu rempah : bisa ganti 4sdm bumbu kari kambing"@id ;
+    rdfs:label " bumbu rempah : bisa ganti 4sdm bumbu kari kambing"@id ;
     sr:containsNutrient data:PurinTinggi .
 
 data:bahan_bumbu_yang_di_haluskan a sr:BahanBaku ;

@@ -1,4 +1,4 @@
-# 🛠️ Panduan Setup Apache Jena Fuseki (Windows)
+# Panduan Setup Apache Jena Fuseki (Windows)
 
 > **Apache Jena Fuseki** adalah SPARQL server (triplestore) yang digunakan untuk menyimpan dan melakukan query terhadap data RDF.
 
@@ -16,7 +16,7 @@
 ## Langkah 1 — Download Apache Jena Fuseki
 
 1. Buka halaman download resmi:  
-   👉 https://jena.apache.org/download/
+   https://jena.apache.org/download/
 
 2. Di bagian **Apache Jena Fuseki**, download file:  
    `apache-jena-fuseki-X.X.X.zip` (versi terbaru)
@@ -49,7 +49,7 @@
    ```
 
 5. Buka browser → akses:  
-   👉 **http://localhost:3030**
+   **http://localhost:3030**
 
    Kamu akan melihat halaman admin Fuseki.
 
@@ -179,29 +179,29 @@ LIMIT 10
    ```
 
 5. Buka browser → akses:  
-   👉 **http://localhost:5000**
+   **http://localhost:5000**
 
 ---
 
 ## Troubleshooting
 
-### ❌ "Java not found" saat menjalankan Fuseki
+### "Java not found" saat menjalankan Fuseki
 - Install Java JDK 11+ dari https://adoptium.net/
 - Set environment variable `JAVA_HOME` ke folder JDK
 - Tambahkan `%JAVA_HOME%\bin` ke `PATH`
 
-### ❌ Port 3030 sudah dipakai
+### Port 3030 sudah dipakai
 - Jalankan Fuseki di port lain:
   ```cmd
   fuseki-server.bat --port=3040
   ```
 - Ubah juga `FUSEKI_ENDPOINT` di `sparql_queries.py`
 
-### ❌ Upload TTL gagal / timeout
+### Upload TTL gagal / timeout
 - Pastikan file `smartrecipe.ttl` tidak corrupt
 - Coba upload via Web UI (lebih reliable untuk file besar)
 
-### ❌ Flask error "Connection refused"
+### Flask error "Connection refused"
 - Pastikan Fuseki server sudah berjalan sebelum Flask
 - Cek apakah URL endpoint di `sparql_queries.py` sudah benar
 

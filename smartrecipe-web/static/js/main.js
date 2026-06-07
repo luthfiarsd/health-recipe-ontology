@@ -60,7 +60,7 @@ function initSearch(categoryEmoji) {
     }
 
     // ─── Render Recipe Cards ────────────────────────────────────────────────
-    function renderRecipes(recipes, emojiMap) {
+    function renderRecipes(recipes, categoryLabels) {
         recipeGrid.innerHTML = '';
 
         // Update count badge
@@ -74,7 +74,7 @@ function initSearch(categoryEmoji) {
         emptyState.classList.add('hidden');
 
         recipes.forEach((recipe, index) => {
-            const emoji = emojiMap[recipe.kategori] || '🍽️';
+            const categoryLabel = categoryLabels[recipe.kategori] || recipe.kategori || 'resep';
             const encodedUri = recipe.encoded_uri || encodeURIComponent(recipe.menu);
             
             const card = document.createElement('a');
@@ -86,7 +86,7 @@ function initSearch(categoryEmoji) {
             card.innerHTML = `
                 <div class="h-32 bg-gradient-to-br from-primary-500/20 via-primary-600/10 to-dark-800 flex items-center justify-center relative overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-t from-dark-900/80 to-transparent"></div>
-                    <span class="text-5xl relative z-10 group-hover:scale-110 transition-transform duration-300">${emoji}</span>
+                    <span class="text-lg font-semibold uppercase tracking-widest text-primary-200 relative z-10 group-hover:scale-110 transition-transform duration-300">${escapeHtml(categoryLabel)}</span>
                 </div>
                 <div class="p-4">
                     <h3 class="font-semibold text-white text-sm mb-2 line-clamp-2 group-hover:text-primary-300 transition-colors">

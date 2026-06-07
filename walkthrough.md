@@ -69,9 +69,9 @@ python app.py
 ```
 
 ### 3. Buka Browser
-👉 http://localhost:5000
+http://localhost:5000
 
 ## Verifikasi
-- ✅ Dependencies terinstall (flask, requests)
-- ✅ Semua modul bisa di-import tanpa error
+- Dependencies terinstall (flask, requests)
+- Semua modul bisa di-import tanpa error
 - ⏳ Test end-to-end membutuhkan Fuseki berjalan dengan dataset `smartrecipe` terisi

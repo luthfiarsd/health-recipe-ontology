@@ -204,7 +204,7 @@ def add_nutrition_data():
         norm = name_raw.lower().strip()
         ingredient_nutrition_map[norm] = uri
 
-    print(f"  ✓ Nutrition: {len(ingredient_nutrition_map)} bahan berhasil dimuat")
+    print(f"  OK Nutrition: {len(ingredient_nutrition_map)} bahan berhasil dimuat")
 
 
 # ─────────────────────────────────────────────
@@ -370,30 +370,30 @@ def add_recipes():
             cat_count  += 1
             total_recipes += 1
 
-        print(f"  ✓ {category:10s}: {cat_count} resep ditambahkan")
+        print(f"  OK {category:10s}: {cat_count} resep ditambahkan")
 
-    print(f"\n  📊 Total resep       : {total_recipes}")
-    print(f"  📊 Bahan ter-link gizi: {total_ing_linked}")
+    print(f"\n  Total resep       : {total_recipes}")
+    print(f"  Bahan ter-link gizi: {total_ing_linked}")
 
 
 # ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
 if __name__ == "__main__":
-    print("🔧 Mendefinisikan skema ontologi...")
+    print("Mendefinisikan skema ontologi...")
     define_schema()
 
-    print("🏥 Menambahkan kondisi kesehatan & kandungan berbahaya...")
+    print("Menambahkan kondisi kesehatan & kandungan berbahaya...")
     add_health_conditions()
 
-    print("🥗 Memuat data nutrisi (nutrition.csv)...")
+    print("Memuat data nutrisi (nutrition.csv)...")
     add_nutrition_data()
 
-    print("🍜 Mengkonversi resep dari semua CSV...")
+    print("Mengkonversi resep dari semua CSV...")
     add_recipes()
 
     output_path = "/home/claude/smartrecipe.ttl"
-    print(f"\n💾 Menyimpan RDF ke {output_path} ...")
+    print(f"\nMenyimpan RDF ke {output_path} ...")
     g.serialize(destination=output_path, format="turtle")
 
     # Statistik akhir
@@ -404,7 +404,7 @@ if __name__ == "__main__":
     kondisi  = len(list(g.subjects(RDF.type, SR.KondisiKesehatan)))
 
     print("\n" + "="*50)
-    print("✅ KONVERSI SELESAI")
+    print("KONVERSI SELESAI")
     print("="*50)
     print(f"  Total Triple RDF     : {total_triples:,}")
     print(f"  MenuMasakan          : {recipes}")

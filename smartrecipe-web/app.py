@@ -56,7 +56,7 @@ def index():
             error_msg = f"Gagal mengambil data dari Fuseki: {str(e)}"
     else:
         error_msg = (
-            "⚠️ Apache Jena Fuseki tidak dapat dijangkau di http://localhost:3030. "
+            "Apache Jena Fuseki tidak dapat dijangkau di http://localhost:3030. "
             "Pastikan Fuseki sudah berjalan sebelum membuka aplikasi ini."
         )
 
@@ -194,9 +194,9 @@ if __name__ == "__main__":
     print("=" * 60)
 
     if not check_fuseki_connection():
-        print("\n  ⚠️  WARNING: Fuseki tidak terdeteksi di http://localhost:3030")
+        print("\n  WARNING: Fuseki tidak terdeteksi di http://localhost:3030")
         print("  Pastikan Apache Jena Fuseki sudah berjalan!\n")
     else:
-        print("\n  ✅ Fuseki terhubung di http://localhost:3030\n")
+        print("\n  OK: Fuseki terhubung di http://localhost:3030\n")
 
     app.run(debug=True, port=5000)

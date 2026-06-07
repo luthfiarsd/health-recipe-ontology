@@ -25,13 +25,13 @@ SmartRecipe adalah sistem pencarian semantik resep masakan Indonesia yang memfil
 
 ## 3. Status Proyek Saat Ini
 
-✅ **Sudah selesai:**
+**Sudah selesai:**
 - File RDF `smartrecipe.ttl` sudah dibuat dan siap di-upload ke Fuseki
 - Ontologi schema sudah didefinisikan (classes, object properties, data properties)
 - 40 resep dari 8 kategori sudah terkonversi ke RDF
 - Relasi bahan → kandungan berbahaya → kondisi kesehatan sudah terhubung
 
-🔲 **Belum dibuat (task sekarang):**
+**Belum dibuat (task sekarang):**
 - Aplikasi website Flask (backend + frontend)
 
 ---
@@ -286,7 +286,7 @@ smartrecipe-web/
 1. **Judul resep** dan metadata (kategori, loves, link sumber)
 2. **Langkah memasak** — dari `sr:hasSteps`, tampilkan per step
 3. **Daftar bahan** — tampilkan semua bahan resep
-4. **Highlight bahan berbahaya** — bahan yang memiliki `sr:containsNutrient` ditampilkan dengan **latar merah/highlight merah** beserta label kandungan berbahayanya (contoh: "⚠️ Udang — mengandung Zat Purin Tinggi")
+4. **Highlight bahan berbahaya** — bahan yang memiliki `sr:containsNutrient` ditampilkan dengan **latar merah/highlight merah** beserta label kandungan berbahayanya (contoh: "Udang — mengandung Zat Purin Tinggi")
 5. **Tabel info gizi** — untuk bahan yang memiliki data gizi dari nutrition.csv (kalori, protein, lemak, karbohidrat)
 
 ---
