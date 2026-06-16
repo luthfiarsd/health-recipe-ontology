@@ -12,6 +12,10 @@ ENV/
 # Runtime logs
 *.log
 
+# Local Apache Jena Fuseki runtime/downloads
+run/
+tools/apache-jena-fuseki-*/
+
 # Local environment files
 .env
 .env.*

@@ -24,6 +24,9 @@ function initSearch(categoryEmoji) {
     const resultsCount   = document.getElementById('results-count');
     const emptyState     = document.getElementById('empty-state');
     const loadingSpinner = document.getElementById('loading-spinner');
+    const askInput       = document.getElementById('ask-input');
+    const btnAsk         = document.getElementById('btn-ask');
+    const askResponse    = document.getElementById('ask-response');
 
     if (!searchInput || !recipeGrid) return;
 
@@ -113,6 +116,100 @@ function initSearch(categoryEmoji) {
         });
     }
 
+    // ─── Ask SmartRecipe via LLM ───────────────────────────────────────────
+    async function askSmartRecipe() {
+        if (!askInput || !btnAsk) return;
+
+        const question = askInput.value.trim();
+        if (!question) {
+            renderAskResponse({
+                summary: 'Tulis pertanyaan terlebih dahulu.',
+                notes: [],
+                filters: null,
+                isError: true,
+            });
+            return;
+        }
+
+        loadingSpinner.classList.remove('hidden');
+        btnAsk.disabled = true;
+        btnAsk.textContent = 'Memproses...';
+
+        try {
+            const response = await fetch('/api/ask', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question }),
+            });
+            const json = await response.json();
+
+            if (!json.success) {
+                throw new Error(json.error || 'Gagal memproses pertanyaan.');
+            }
+
+            const filters = json.filters || {};
+            searchInput.value = filters.keyword || '';
+            filterCondition.value = filters.condition || '';
+            filterCategory.value = filters.category || '';
+
+            renderAskResponse({
+                summary: json.narrative?.summary || 'Hasil ditemukan berdasarkan data ontology.',
+                notes: json.narrative?.notes || [],
+                filters,
+                isError: false,
+            });
+            renderRecipes(json.data || [], categoryEmoji);
+        } catch (err) {
+            renderAskResponse({
+                summary: err.message || 'Gagal menghubungi layanan LLM.',
+                notes: [],
+                filters: null,
+                isError: true,
+            });
+            console.error('Ask error:', err);
+        } finally {
+            btnAsk.disabled = false;
+            btnAsk.textContent = 'Tanya';
+            loadingSpinner.classList.add('hidden');
+        }
+    }
+
+    function renderAskResponse({ summary, notes, filters, isError }) {
+        if (!askResponse) return;
+
+        const filterBadges = filters ? [
+            filters.keyword ? `Kata kunci: ${filters.keyword}` : '',
+            filters.condition ? `Kondisi: ${filters.condition.replace('_', ' ')}` : '',
+            filters.category ? `Kategori: ${filters.category}` : '',
+        ].filter(Boolean) : [];
+
+        askResponse.classList.remove('hidden');
+        askResponse.innerHTML = `
+            <div class="flex items-start gap-3">
+                <div class="w-9 h-9 rounded-lg ${isError ? 'bg-red-500/10 border-red-500/20' : 'bg-emerald-500/10 border-emerald-500/20'} border flex items-center justify-center flex-shrink-0">
+                    <svg class="w-5 h-5 ${isError ? 'text-red-300' : 'text-emerald-300'}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${isError ? 'M12 9v2m0 4h.01M12 3a9 9 0 110 18 9 9 0 010-18z' : 'M9.75 17L9 20l2.25-1.5L13.5 20l-.75-3M7 10a5 5 0 1110 0c0 2.5-2.5 4-5 4s-5-1.5-5-4z'}"/>
+                    </svg>
+                </div>
+                <div class="min-w-0">
+                    <p class="text-sm ${isError ? 'text-red-200' : 'text-gray-200'} leading-6">${escapeHtml(summary)}</p>
+                    ${filterBadges.length ? `
+                        <div class="flex flex-wrap gap-2 mt-3">
+                            ${filterBadges.map((badge) => `
+                                <span class="px-2.5 py-1 rounded-lg bg-dark-800/80 border border-white/5 text-xs text-gray-400">${escapeHtml(badge)}</span>
+                            `).join('')}
+                        </div>
+                    ` : ''}
+                    ${notes.length ? `
+                        <ul class="mt-3 space-y-1">
+                            ${notes.map((note) => `<li class="text-xs text-gray-500">${escapeHtml(note)}</li>`).join('')}
+                        </ul>
+                    ` : ''}
+                </div>
+            </div>
+        `;
+    }
+
     // ─── Show Error ─────────────────────────────────────────────────────────
     function showError(message) {
         recipeGrid.innerHTML = `
@@ -141,6 +238,9 @@ function initSearch(categoryEmoji) {
 
     // Search button click
     btnSearch.addEventListener('click', fetchRecipes);
+    if (btnAsk) {
+        btnAsk.addEventListener('click', askSmartRecipe);
+    }
 
     // Enter key on search input
     searchInput.addEventListener('keydown', (e) => {
@@ -149,6 +249,15 @@ function initSearch(categoryEmoji) {
             fetchRecipes();
         }
     });
+
+    if (askInput) {
+        askInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+                e.preventDefault();
+                askSmartRecipe();
+            }
+        });
+    }
 }
 
 // ─── Utility Functions ──────────────────────────────────────────────────────

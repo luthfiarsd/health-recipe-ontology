@@ -153,7 +153,7 @@ def search_recipes(
     if category:
         # Q3: Filter berdasarkan kategori bahan utama
         safe_category = category.replace('"', '\\"')
-        filters.append(f'FILTER(?kategori = "{safe_category}")')
+        filters.append(f'FILTER(STR(?kategori) = "{safe_category}")')
 
     # Bangun FILTER NOT EXISTS untuk kondisi kesehatan
     condition_block = ""

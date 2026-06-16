@@ -18,6 +18,12 @@ from sparql_queries import (
     CONDITION_MAP,
     CATEGORY_LIST,
 )
+from llm_service import (
+    LLMConfigurationError,
+    LLMServiceError,
+    extract_recipe_filters,
+    generate_recipe_narrative,
+)
 
 app = Flask(__name__)
 
@@ -98,6 +104,75 @@ def api_recipes():
         for r in recipes:
             r["encoded_uri"] = quote(r["menu"], safe="")
         return jsonify({"success": True, "data": recipes})
+    except requests.ConnectionError:
+        return jsonify({
+            "success": False,
+            "error": "Fuseki tidak dapat dijangkau",
+        }), 503
+    except Exception as e:
+        return jsonify({
+            "success": False,
+            "error": str(e),
+        }), 500
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# API: Tanya SmartRecipe dengan LLM + SPARQL
+# ═══════════════════════════════════════════════════════════════════════════════
+@app.route("/api/ask", methods=["POST"])
+def api_ask():
+    """
+    Endpoint hybrid LLM + ontology.
+
+    Alur:
+        1. LLM mengekstrak filter dari pertanyaan natural user.
+        2. Backend menjalankan search_recipes() ke Fuseki/SPARQL.
+        3. LLM menyusun narasi dari hasil terstruktur.
+    """
+    payload = request.get_json(silent=True) or {}
+    question = payload.get("question", "").strip()
+
+    if not question:
+        return jsonify({
+            "success": False,
+            "error": "Pertanyaan tidak boleh kosong.",
+        }), 400
+
+    if not check_fuseki_connection():
+        return jsonify({
+            "success": False,
+            "error": "Fuseki tidak dapat dijangkau. Pastikan server berjalan.",
+        }), 503
+
+    try:
+        filters = extract_recipe_filters(question)
+        recipes = search_recipes(
+            keyword=filters.get("keyword", ""),
+            condition=filters.get("condition", ""),
+            category=filters.get("category", ""),
+        )
+
+        for recipe in recipes:
+            recipe["encoded_uri"] = quote(recipe["menu"], safe="")
+
+        narrative = generate_recipe_narrative(question, filters, recipes)
+
+        return jsonify({
+            "success": True,
+            "filters": filters,
+            "narrative": narrative,
+            "data": recipes,
+        })
+    except LLMConfigurationError as e:
+        return jsonify({
+            "success": False,
+            "error": str(e),
+        }), 503
+    except (LLMServiceError, requests.HTTPError) as e:
+        return jsonify({
+            "success": False,
+            "error": str(e),
+        }), 500
     except requests.ConnectionError:
         return jsonify({
             "success": False,

@@ -88,6 +88,33 @@
                 </div>
             </div>
         </div>
+
+        <!-- ═══ LLM Ask Bar ═══ -->
+        <div class="glass-card max-w-4xl mx-auto p-6 rounded-2xl" id="ask-section">
+            <div class="flex flex-col gap-4">
+                <div class="flex items-center justify-between gap-3">
+                    <div>
+                        <h2 class="text-base font-semibold text-white">Tanya SmartRecipe</h2>
+                        <p class="text-sm text-gray-500">Gunakan bahasa natural untuk mencari resep dari data ontology.</p>
+                    </div>
+                    <span class="hidden sm:inline-flex px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-300 font-medium">
+                        LLM + SPARQL
+                    </span>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <textarea
+                        id="ask-input"
+                        rows="2"
+                        placeholder="Contoh: Saya hipertensi, carikan resep ayam yang aman"
+                        class="min-h-[52px] flex-1 px-4 py-3 rounded-xl bg-dark-800/80 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/50 transition-all text-sm resize-none"
+                    ></textarea>
+                    <button id="btn-ask" class="sm:w-auto px-6 py-3 rounded-xl bg-emerald-500/90 text-white font-semibold hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all shadow-lg shadow-emerald-500/10 text-sm">
+                        Tanya
+                    </button>
+                </div>
+                <div id="ask-response" class="hidden rounded-xl border border-white/10 bg-dark-900/60 p-4"></div>
+            </div>
+        </div>
     </div>
 </section>
 
