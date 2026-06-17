@@ -30,10 +30,17 @@
     </a>
 
     <!-- ═══ Recipe Header ═══ -->
-    <div class="glass-card rounded-2xl p-6 sm:p-8 mb-6" id="recipe-header">
+    <div class="glass-card rounded-2xl p-6 sm:p-8 mb-6 overflow-hidden" id="recipe-header">
+        {% if info.imgMenu %}
+        <div class="relative -m-6 sm:-m-8 mb-6 sm:mb-7 h-56 sm:h-72 overflow-hidden">
+            <img src="{{ info.imgMenu }}" alt="{{ info.namaMenu }}" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-dark-900/30 to-transparent"></div>
+        </div>
+        {% endif %}
+
         <div class="flex flex-col sm:flex-row items-start gap-5">
             <!-- Category Icon -->
-            <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-primary-500/20 via-primary-600/10 to-dark-800 flex items-center justify-center flex-shrink-0 border border-primary-500/10">
+            <div class="w-20 h-20 rounded-2xl {% if info.imgMenu %}bg-dark-800/80{% else %}bg-gradient-to-br from-primary-500/20 via-primary-600/10 to-dark-800{% endif %} flex items-center justify-center flex-shrink-0 border border-primary-500/10">
                 <span class="text-sm font-semibold uppercase tracking-widest text-primary-200">
                     {{ info.kategori }}
                 </span>
@@ -91,7 +98,6 @@
         <div class="space-y-2">
             {% for bahan_name, warnings in dangerous_map.items() %}
             <div class="flex items-start gap-3 p-3 rounded-xl bg-red-500/5 border border-red-500/10">
-                <span class="text-xs font-semibold text-red-300">WARNING</span>
                 <div>
                     <span class="font-medium text-red-200">{{ bahan_name }}</span>
                     {% for w in warnings %}
@@ -158,10 +164,13 @@
                     {% set is_dangerous = ing.namaBahan in dangerous_map %}
                     <div class="flex items-center gap-3 p-2.5 rounded-xl {% if is_dangerous %}bg-red-500/10 border border-red-500/20{% else %}bg-dark-800/40 border border-white/5{% endif %} transition-all hover:bg-dark-700/40 ingredient-item" id="ingredient-{{ loop.index }}">
                         
-                        {% if is_dangerous %}
-                        <span class="text-xs font-semibold text-red-300 flex-shrink-0">WARNING</span>
+                        {% if ing.imgBahan %}
+                        <img src="{{ ing.imgBahan }}" alt="{{ ing.namaBahan }}" loading="lazy" class="w-10 h-10 rounded-lg object-cover border {% if is_dangerous %}border-red-500/30{% else %}border-white/10{% endif %} bg-dark-900 flex-shrink-0">
+                        {% elif is_dangerous %}
                         {% else %}
-                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400/60 flex-shrink-0"></span>
+                        <span class="w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/10 flex items-center justify-center flex-shrink-0">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400/60"></span>
+                        </span>
                         {% endif %}
 
                         <span class="text-sm {% if is_dangerous %}text-red-200 font-medium{% else %}text-gray-300{% endif %} flex-1">
@@ -209,7 +218,6 @@
                     {% set is_dangerous = ing.namaBahan in dangerous_map %}
                     <tr class="{% if is_dangerous %}bg-red-500/5{% endif %} hover:bg-dark-800/40 transition-colors">
                         <td class="py-2.5 px-3 text-gray-300">
-                            {% if is_dangerous %}<span class="mr-1 text-red-300">WARNING:</span>{% endif %}
                             {{ ing.namaBahan }}
                         </td>
                         <td class="py-2.5 px-3 text-right text-gray-400 tabular-nums">{{ ing.kalori }} <span class="text-gray-600 text-xs">kcal</span></td>

@@ -173,11 +173,12 @@ def search_recipes(
     filter_str = "\n    ".join(filters)
 
     query = SPARQL_PREFIXES + f"""
-    SELECT DISTINCT ?menu ?namaMenu ?kategori ?loves WHERE {{
+    SELECT DISTINCT ?menu ?namaMenu ?kategori ?loves ?imgMenu WHERE {{
         ?menu a sr:MenuMasakan ;
               rdfs:label ?namaMenu ;
               dcterms:subject ?kategori ;
               sr:hasLoves ?loves .
+        OPTIONAL {{ ?menu sr:hasImageURL ?imgMenu }}
         {filter_str}
         {condition_block}
     }}
@@ -210,7 +211,7 @@ def get_recipe_detail(recipe_uri: str) -> dict:
         }
     """
     query = SPARQL_PREFIXES + f"""
-    SELECT ?namaMenu ?kategori ?steps ?sourceURL ?loves
+    SELECT ?namaMenu ?kategori ?steps ?sourceURL ?loves ?imgMenu
            ?namaBahan ?kalori ?protein ?lemak ?karbo ?imgBahan WHERE {{
         BIND(<{recipe_uri}> AS ?menu)
         ?menu a sr:MenuMasakan ;
@@ -219,6 +220,7 @@ def get_recipe_detail(recipe_uri: str) -> dict:
               sr:hasSteps ?steps ;
               sr:hasLoves ?loves .
         OPTIONAL {{ ?menu sr:hasSourceURL ?sourceURL }}
+        OPTIONAL {{ ?menu sr:hasImageURL ?imgMenu }}
         OPTIONAL {{
             ?menu sr:hasIngredient ?bahan .
             ?bahan rdfs:label ?namaBahan .
@@ -243,6 +245,7 @@ def get_recipe_detail(recipe_uri: str) -> dict:
         "steps":     first.get("steps", ""),
         "loves":     first.get("loves", "0"),
         "sourceURL": first.get("sourceURL", ""),
+        "imgMenu":   first.get("imgMenu", ""),
     }
 
     # Kumpulkan semua bahan unik (satu resep bisa punya banyak bahan)

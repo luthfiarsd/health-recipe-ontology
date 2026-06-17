@@ -294,7 +294,7 @@ data:bahan_Ayam_goreng_Kentucky_paha a sr:BahanBaku ;
     sr:hasProtein "32.1"^^xsd:float .
 
 data:bahan_Ayam_goreng_Kentuckysayap a sr:BahanBaku ;
-    rdfs:label "Ayam  goreng Kentuckysayap"@id ;
+    rdfs:label "Ayam goreng Kentucky sayap"@id ;
     dcterms:identifier "NUT-0031" ;
     sr:hasCalories "297.0"^^xsd:float ;
     sr:hasCarbohydrate "1.6"^^xsd:float ;
@@ -303,7 +303,7 @@ data:bahan_Ayam_goreng_Kentuckysayap a sr:BahanBaku ;
     sr:hasProtein "35.9"^^xsd:float .
 
 data:bahan_Ayam_goreng_church_texa_sayap a sr:BahanBaku ;
-    rdfs:label "Ayam goreng church texa sayap"@id ;
+    rdfs:label "Ayam goreng Church Texas sayap"@id ;
     dcterms:identifier "NUT-0034" ;
     sr:hasCalories "295.0"^^xsd:float ;
     sr:hasCarbohydrate "1.5"^^xsd:float ;
@@ -312,7 +312,7 @@ data:bahan_Ayam_goreng_church_texa_sayap a sr:BahanBaku ;
     sr:hasProtein "34.0"^^xsd:float .
 
 data:bahan_Ayam_goreng_church_texas_dada a sr:BahanBaku ;
-    rdfs:label "Ayam goreng church texas dada"@id ;
+    rdfs:label "Ayam goreng Church Texas dada"@id ;
     dcterms:identifier "NUT-0035" ;
     sr:hasCalories "338.0"^^xsd:float ;
     sr:hasCarbohydrate "0.4"^^xsd:float ;
@@ -879,7 +879,7 @@ data:bahan_Bengkuang a sr:BahanBaku ;
     sr:hasProtein "1.4"^^xsd:float .
 
 data:bahan_Bentul_Komba_talas_segar a sr:BahanBaku ;
-    rdfs:label "Bentul (Komba)  talas segar"@id ;
+    rdfs:label "Bentul (Komba) talas segar"@id ;
     dcterms:identifier "NUT-0103" ;
     sr:hasCalories "98.0"^^xsd:float ;
     sr:hasCarbohydrate "20.9"^^xsd:float ;
@@ -2319,7 +2319,7 @@ data:bahan_Daun_bangun_bangun_segar a sr:BahanBaku ;
     sr:hasProtein "1.3"^^xsd:float .
 
 data:bahan_Daun_bawang_merah_segar a sr:BahanBaku ;
-    rdfs:label "Daun bawang  merah segar"@id ;
+    rdfs:label "Daun bawang merah segar"@id ;
     dcterms:identifier "NUT-0235" ;
     sr:hasCalories "41.0"^^xsd:float ;
     sr:hasCarbohydrate "7.8"^^xsd:float ;
@@ -2598,7 +2598,7 @@ data:bahan_Daun_pepaya_segar a sr:BahanBaku ;
     sr:hasProtein "8.0"^^xsd:float .
 
 data:bahan_Daun_salam_bubuk a sr:BahanBaku ;
-    rdfs:label "Daun salam  bubuk"@id ;
+    rdfs:label "Daun salam bubuk"@id ;
     dcterms:identifier "NUT-0292" ;
     sr:hasCalories "301.0"^^xsd:float ;
     sr:hasCarbohydrate "49.0"^^xsd:float ;
@@ -2886,7 +2886,7 @@ data:bahan_Domba_daging_gemuk_segar a sr:BahanBaku ;
     sr:hasProtein "15.7"^^xsd:float .
 
 data:bahan_Domba_daging_kurus_segar a sr:BahanBaku ;
-    rdfs:label "Domba daging kurus  segar"@id ;
+    rdfs:label "Domba daging kurus segar"@id ;
     dcterms:identifier "NUT-0333" ;
     sr:hasCalories "202.0"^^xsd:float ;
     sr:hasCarbohydrate "0.0"^^xsd:float ;
@@ -6527,7 +6527,7 @@ data:bahan_Kerupuk_kemplang_goreng a sr:BahanBaku ;
     sr:hasProtein "5.6"^^xsd:float .
 
 data:bahan_Kerupuk_kemplang_ikan_mentah a sr:BahanBaku ;
-    rdfs:label "Kerupuk kemplang  (ikan) mentah"@id ;
+    rdfs:label "Kerupuk kemplang (ikan) mentah"@id ;
     dcterms:identifier "NUT-0740" ;
     sr:hasCalories "325.0"^^xsd:float ;
     sr:hasCarbohydrate "78.5"^^xsd:float ;
@@ -6743,7 +6743,7 @@ data:bahan_Kopi_bagian_yang_larut a sr:BahanBaku ;
     sr:hasProtein "17.4"^^xsd:float .
 
 data:bahan_Kopi_bubuk_instant a sr:BahanBaku ;
-    rdfs:label "Kopi bubuk instant"@id ;
+    rdfs:label "Kopi bubuk instan"@id ;
     dcterms:identifier "NUT-0774" ;
     sr:hasCalories "129.0"^^xsd:float ;
     sr:hasCarbohydrate "35.0"^^xsd:float ;
@@ -7651,7 +7651,7 @@ data:bahan_Martabak_india a sr:BahanBaku ;
     sr:hasProtein "4.5"^^xsd:float .
 
 data:bahan_Martabak_manis a sr:BahanBaku ;
-    rdfs:label "Martabak  manis"@id ;
+    rdfs:label "Martabak manis"@id ;
     dcterms:identifier "NUT-0876" ;
     sr:hasCalories "265.3"^^xsd:float ;
     sr:hasCarbohydrate "49.3"^^xsd:float ;
@@ -11792,6 +11792,7 @@ data:resep_Ayam_Goreng_Bawang_Khas_Batam a sr:MenuMasakan ;
         data:bahan_tepung_maizena ;
     sr:hasLoves 237 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4345660-ayam-goreng-bawang-khas-batam"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/4896426cd5a4e173/300x426cq80/ayam-goreng-bawang-khas-batam-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Cuci ayam hingga bersih kemudian tiriskan masukan bumbu halus,garam,kaldu jamur tepung maizena&telur aduk hingga tercampur rata--Diamkan kurang lebih 30 menit di kulkas supaya bumbu meresap--Panaskan minyak goreng kemudian goreng bawang putih hingga kuning&garing tiriskan--Kemudian goreng ayam hingga coklat keemasan&matang merata *saya pakai api kecil saja* untuk ayam nya goreng bertahap jangan sekali goreng semua nya angkat&tiriskan--Ayam goreng bawang siap di sajikan--" .
 
 data:resep_Ayam_Goreng_Kecap a sr:MenuMasakan ;
@@ -11811,6 +11812,7 @@ data:resep_Ayam_Goreng_Kecap a sr:MenuMasakan ;
         data:bahan_ayam_Potong_potong ;
     sr:hasLoves 218 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4379354-ayam-goreng-kecap"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/160e16f498990ea6/300x426cq80/ayam-goreng-kecap-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Lumuri ayam dg air jeruknipus dan garam, remas2, bilas bersih. Ungkep ayam dg garam dan merica. Boleh jg lgs goreng tp potong agak kecil.--Setelah diungkep, goreng ayam hngga sedikit kecokelatan, angkat.--Panaskan secukupnya minyak, tumis bawang putih dan jahe, masukkan bawang bombay, tumis hingga harum. Masukkan cabe merah iris, ayam goreng, bubuhi gula garam, merica dan kecap, tuangair. Masak hingga kuah mengental, sesaat sblm diangkat, masukkan daun bawang.--Angkat ayam dan sajikan--" .
 
 data:resep_Ayam_Woku_Manado a sr:MenuMasakan ;
@@ -11823,10 +11825,8 @@ data:resep_Ayam_Woku_Manado a sr:MenuMasakan ;
         data:bahan_3_cm_Jahe,
         data:bahan_4_Cabe_Rawit,
         data:bahan_Ayam_potong_1216,
-        data:bahan_Bahan_Lain,
         data:bahan_Bawang_Merah,
         data:bahan_Bawang_Putih,
-        data:bahan_Bumbu_Halus,
         data:bahan_Daun_Kemangi,
         data:bahan_Kaldu_Bubuk_garam_gula,
         data:bahan_Kemiri,
@@ -11838,10 +11838,11 @@ data:resep_Ayam_Woku_Manado a sr:MenuMasakan ;
         data:bahan_br_daun_pandan_iris_halus_dan_1_sereh_geprek ;
     sr:hasLoves 169 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4349267-ayam-woku-manado"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/bebef648b255ce5a/300x426cq80/ayam-woku-manado-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Rebus Ayam di air Mendidih 7 Menit, buang kotorannya, bilas n Tiriskan.--Di Wajan, Tumis Bumbu halus dgn Minyak sampai Harum, masukkan daun jeruk, salam, pandan,sereh, tumis sampai Matang..--Masukkan Ayam, aduk Rata. Tambahkan Air dan Garam, gula n kaldu, tomat potong, aduk rata, koreksi Rasa.--Masak sampai Ayam Matang empuk n kuah menyusut. Matikan api, lalu masukkan daun kemangi, aduk sampai daun layu.--" .
 
 data:resep_Bakso_Sapi_Homemade_bs_daging_frozen_bs_fresh a sr:MenuMasakan ;
-    rdfs:label "Bakso Sapi Homemade (bs daging frozen bs fresh)"@id ;
+    rdfs:label "Bakso Sapi Homemade"@id ;
     dcterms:identifier "REC_SAPI_004" ;
     dcterms:subject "sapi"@id ;
     sr:hasCategory data:kategori_sapi ;
@@ -11854,6 +11855,7 @@ data:resep_Bakso_Sapi_Homemade_bs_daging_frozen_bs_fresh a sr:MenuMasakan ;
         data:bahan_sledry ;
     sr:hasLoves 269 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3396697-bakso-sapi-homemade-bs-daging-frozen-bs-fresh"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/82e0bbd3d16b77e9/300x426cq80/bakso-sapi-homemade-bs-daging-frozen-bs-fresh-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Pecahkan es batu campur dg air es.. (INI TIDAK DI PAKAI SEMUA YA) yg stengah biarkan ttp berukuran besar--Giling daging + sledry + garam + merica + penyedap + es batu plih yg ukuran kecil\"(sebesar es balok yg di cetakn itu)+ air es bberapa sendok.. Giling hingga halus.. (sya pakai chooper kecil jd aya choop 3x.. Stiap kliatan nggumpel tndax perlu di tambhkn 1 - 2 sendok air es biar g nyiksa chooperx) giling hingga bnr\" halus ya lbh enak pke food processor ( tapin jangan menambhakn terlalu banyak air nnti benyek. Ini hasil gilingan ttp halus padat bukn benyek --Klo dagingx udah alus masukan kanji + maizena uleni pakai tangan hingga bnr\" rata sya ulen agak lama biar kenyel, tp g perlu kalis jg sh ya ini bukn adonan roti .. klo mau blh colek dikit test rasa.. Klo udh pas asin gurihx lanjut pansakan air--Panaskan air pakai api sedang sj, tmbhkan garam tjuanx hsil rebusan bksox biar ga anyep.. klo udah kliatan mrintis\"airx.. clutut\"kan bakso pake tangan kanan.. Sekrup pake sendok langsung selupin di dalam air (sendokx hrs ikut nyelup jg biar baksox lepas sndri dr sendokx) lakukan hingga habis dan rebus hingga mengapung, Sisa es batu + air esx tadi jangan di buang.. Stelah bakso mengambang lngsung tiriskan n rendam air es ini.. Ini hg bs bkin kenyal..--Blh di tmbh 1 putih telur----------" .
 
 data:resep_Bakso_Sapi_Pakai_Blender a sr:MenuMasakan ;
@@ -11871,16 +11873,16 @@ data:resep_Bakso_Sapi_Pakai_Blender a sr:MenuMasakan ;
         data:bahan_tepung_tapioka ;
     sr:hasLoves 939 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3431604-bakso-sapi-pakai-blender"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/790de5ce85858782/300x426cq80/bakso-sapi-pakai-blender-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Siapkan semua bahan, cincang daging sapi kecil2.--Masukkan daging cincang kedalam blender, tambahkan es batu (es nya di haluskan juga ya)--Proses sampai halus--Tanbahkan putih telur. Blender sampai rata. Tambahkan tepung tapioka, bawang putih, garam, merica dan baking powder. Proses lagi sampai tercampur rata--Siapkan baskom besar, masukkan adonan bakso, uleni, dan banting2 adonan sampai bener2 menyatu dan teksturnya lembut seperti pasta--Bulat2kan--Didihkan air, sampai benar2 mendidih, kecilkan api masukkan bulatan2 bakso. Jika sudah mengapung langsung angkate--Lalu taruh d air es--Tiriskan. Siap di olah, bisa dijadikan bakso kuah, bakso goreng, bakso bakar dll--Siap di olah, bisa dijadikan bakso kuah, bakso goreng, bakso bakar dll--" .
 
 data:resep_Chilli_Tuna_Puff_Kilat_Super_Yummy a sr:MenuMasakan ;
-    rdfs:label "Chilli Tuna Puff Kilat Super Yummy "@id ;
+    rdfs:label "Chilli Tuna Puff"@id ;
     dcterms:identifier "REC_IKAN_001" ;
     dcterms:subject "ikan"@id ;
     sr:hasCategory data:kategori_ikan ;
     sr:hasIngredient data:bahan_12_pack_Kulit_puff_instant_saya_merkEdo,
         data:bahan_1_Kaleng_Tuna_in_oil_pedas_saya_merk_Kingfisher,
-        data:bahan_Bahan_Isian,
         data:bahan_Bawang_Putih,
         data:bahan_Telur_Rebus_potong2,
         data:bahan_secukupnya_Boncabechili_flakes,
@@ -11889,6 +11891,7 @@ data:resep_Chilli_Tuna_Puff_Kilat_Super_Yummy a sr:MenuMasakan ;
         data:bahan_secukupnya_lada ;
     sr:hasLoves 516 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4463240-chilli-tuna-puff-kilat-super-yummy-%F0%9F%98%99"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/9f81df2ce953cfbd/300x426cq80/chilli-tuna-puff-kilat-super-yummy-%F0%9F%98%99-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps """Langkah 
 1.Tumis chili tuna chunk dengan minyak bawang disusul jagung pipil,lalu masukkan gula+garam+merica/lada hitam sesuai selera.
 2.Terakhir,taburi Chili Flakes/Boncabe dan Parsley cincang,aduk rata,sisihkan
@@ -11915,10 +11918,11 @@ data:resep_Dimsum_siomay_udang_ayam a sr:MenuMasakan ;
         data:bahan_udang_kupas_cincang_kasar ;
     sr:hasLoves 109 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3934309-dimsum-siomay-udang-ayam"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/bcd2f0b1cff20724/300x426cq80/dimsum-siomay-udang-ayam-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Campur semua bahan dan bumbu jadi satu kecuali wortel yg dparut halus--Aduk rata, jika terlalu kerinf tambah kan air sedikir--Ambil kulit pangsit. Basahkan sekeliling nya menggunakan air dgn jari agar kulit pangsit elastis ketika d bentuk--Letakkan satu sendok adonan d tengah lalu d bentuk seperti d atas. Tambahkan parutan wortel d atasnya--Lalu kukus selama 20 s/d 30 menit. Beri jarak karna siomay akan mengembang.--Siomay siap d hidangkan. Bs jg d taro d kulkas dan d hangatkan sewaktu2--" .
 
 data:resep_IKAN_ASIN_GABUS_KERING_CABE_GENDOT_BY_Dapoer_Linggar a sr:MenuMasakan ;
-    rdfs:label "IKAN ASIN GABUS KERING CABE GENDOT... BY. Dapoer Linggar"@id ;
+    rdfs:label "Ikan Asin Gabus Cabe Gendot"@id ;
     dcterms:identifier "REC_IKAN_004" ;
     dcterms:subject "ikan"@id ;
     sr:hasCategory data:kategori_ikan ;
@@ -11936,10 +11940,11 @@ data:resep_IKAN_ASIN_GABUS_KERING_CABE_GENDOT_BY_Dapoer_Linggar a sr:MenuMasakan
         data:bahan_tomat_kecil_iris_kasar ;
     sr:hasLoves 196 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4067418-ikan-asin-gabus-kering-cabe-gendot-by-dapoer-linggar"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/f144c70a562e8e12/300x426cq80/ikan-asin-gabus-kering-cabe-gendot-by-dapoer-linggar-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Rendam ikan asin dengan air panas beberapa saat agar garamnya berkurang lalu cuci bersih kemudian goreng kering--Tumis semua bumbu iris, pete, di tambah daun salam hingga harum lalu masukan ikan asin lalu aduk rata kemudian tambahkan air dan tutup sebentar--Menjelang di angkat masukan tomat iris lalu test rasa dahulu jika ku4ang asin bisa d tambahkan bumbu tambahan garam, gula pasir dan penyedap (Optional)--Jika semua rasa sudah oke angkat dan sajikan--NB : Test rasa dahulu seblum di tmbahkan bumbu tambahan agar makanan yang di sajikan tidak keasinan karena beberapa ikan asin memiliki rasa asin yang kuat... Jika tidak test rasa khawatir makanan keasinan...--Selamat mencoba... Jangn lupa yah reecook--" .
 
 data:resep_Kalio_TaluaTelur_Tempe_pr_recookmasakanawalanT a sr:MenuMasakan ;
-    rdfs:label "Kalio Talua/Telur & Tempe #pr_recookmasakanawalanT"@id ;
+    rdfs:label "Kalio Talua Telur Tempe"@id ;
     dcterms:identifier "REC_TELUR_004" ;
     dcterms:subject "telur"@id ;
     sr:hasCategory data:kategori_telur ;
@@ -11960,6 +11965,7 @@ data:resep_Kalio_TaluaTelur_Tempe_pr_recookmasakanawalanT a sr:MenuMasakan ;
         data:bahan_serai_memarkan ;
     sr:hasLoves 160 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3919824-kalio-taluatelur-tempe-pr_recookmasakanawalant"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/0dba1c3095b00daf/300x426cq80/kalio-taluatelur-tempe-pr_recookmasakanawalant-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Tuang air santan kedalam panci, sisihkan. Tumis bumbu halus dan rempah daun menggunakan minyak sayur sampai harum.(resep asli gak ditumis dulu).--Kemudian tuang tumisan bumbu kedalam air santan yg didalam panci. Aduk rata. Nyalakan api. Masak sambil terus diaduk supaya santan tidak pecah. Beri garam, gula, dan kaldu bubuk (jika suka), aduk rata kembali.--Masukan telur rebus kupas dan potongan tempe masak terus sampai tempe matang. Terakhir masukan cabai rawit merah utuh. Tes rasa. Matikan api. Tutup supaya cabai layu. Siap disajikan.--" .
 
 data:resep_Kalio_tenggiri a sr:MenuMasakan ;
@@ -11986,6 +11992,7 @@ data:resep_Kalio_tenggiri a sr:MenuMasakan ;
         data:bahan_wortel_potong_korek ;
     sr:hasLoves 188 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4258708-kalio-tenggiri"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/f2fc2336c7d27d83/300x426cq80/kalio-tenggiri-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Lumuri ikan dgn jeruk nipis, diamkan 15 menit lalu cuci bersih--Tumis bumbu halus, sereh, daun salam, daun kunyit hingga bumbu matang dan wangi--Masukkan ikan tenggiri, aduk dulu sampai berubah warna lalu masukkan santannya, susul dgn wortel--Masak sambil diaduk, beri gula dan garam, cabe utuhnya juga masuk--Masak sampai matang lalu sajikan--" .
 
 data:resep_Lapis_daging_sapi a sr:MenuMasakan ;
@@ -12015,6 +12022,7 @@ data:resep_Lapis_daging_sapi a sr:MenuMasakan ;
         data:bahan_serai_memarkan ;
     sr:hasLoves 342 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4388878-lapis-daging-sapi"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/b0e148eef483e575/300x426cq80/lapis-daging-sapi-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Tumis bumbu halus sampai wangi, masukkan daun salam, serai, daun jeruk, cengkih, kayumanis, aduk rata, masukkan daging, aduk2 sampai berubah warna.--Setelah daging berubah warna bumbui garam, gula merah, air asam & kecap manis, aduk sampai rata lalu tuangi air, masak sampai daging empuk dan bumbu meresap, angkat dan sajikan.--" .
 
 data:resep_Lodeh_TKL_tempe_kacang_panjang_labu_siam a sr:MenuMasakan ;
@@ -12036,6 +12044,7 @@ data:resep_Lodeh_TKL_tempe_kacang_panjang_labu_siam a sr:MenuMasakan ;
         data:bahan_santan_kara ;
     sr:hasLoves 172 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4358093-lodeh-tkl-tempe-kacang-panjang-labu-siam"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/a1663730cd3ec353/300x426cq80/lodeh-tkl-tempe-kacang-panjang-labu-siam-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Iris tipis tempe, labu siam dan kacang panjang--Blender bumbu yang harus dihaluskan--Tumis bumbu halus sampai harum, kemudian tuangkan air--Masukkan labu siam dan kacang panjang--Setelah air sedikit berkurang, masukkan potongan tempe--Masukkan santan kara yang sdh dicampur dengan air--Beri sedikit garam dan penyedap rasa--Tes rasa dan tunggu sampai sedikit mendidih--Lodeh TKL siap disajikan--" .
 
 data:resep_Menu_dinner_trio_tumis_pokcoy_ayam_bawang_putih_bawang_merah a sr:MenuMasakan ;
@@ -12060,6 +12069,7 @@ data:resep_Menu_dinner_trio_tumis_pokcoy_ayam_bawang_putih_bawang_merah a sr:Men
         data:bahan_pokcoy ;
     sr:hasLoves 170 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4355199-menu-dinner-trio-tumis-pokcoy-ayam-bawang-putih-bawang-merah"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/3f01411b0e3a3822/300x426cq80/%F0%9F%8D%BD-menu-set-trio-tumis-pokcoy-ayam-bawang-putih-bawang-merah-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "⭐ Tumis pokcoy: pokcoy cuci bersih, potong. Panaskan wajan, masukkan bawang putih lalu tumis sampai harum--Masukkan pokcoy, kecap asin, air, gula, garam. Aduk rata sekitar 30 detik. Angkat--⭐ Ayam bawang putih: campurkan semua dan marinasi di kulkas selama bbrp jam (saya 8 jam karena pagi bikin, pulang kantor masak)--Beri sedikit minyak, tumis hingga agak sedikit gosong, angkat--⭐ Tumis bawang merah: bawang merah diiris tipis, dan cabe iris miring--Beri minyak yg agak banyak (mgkn sekitar 4-5 sdm) lalu tumis bawang merah, cabe lalu aduk sampe harum. Masukkan gula, garam dan kaldu jamur. Aduk2 dan cicipi rasa. Jika sudah pas sisihkan--" .
 
 data:resep_Mie_Ayam a sr:MenuMasakan ;
@@ -12084,10 +12094,11 @@ data:resep_Mie_Ayam a sr:MenuMasakan ;
         data:bahan_serai ;
     sr:hasLoves 194 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4337966-mie-ayam"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/68d64c40d8531328/300x426cq80/mie-ayam-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Rebus mie telur sampai matang--Rebus ayam hingga empuk dengan sedikit garam kemudian potong kecil2--Tumis bawang bombay, bawang merah, bawang putih hingga harum--Tambahkan jahe giling, daun salam, daun jeruk dan serai.--Masukkan kecap manis, kecap asin, kecap inggris, minyak wijen dan saos tiram.--Masukan ayam yang telah di rebus aduk rata.--Masukkan garam, penyedap rasa, dan merica bubuk sesuai selera--Tambahkan sedikit air, masukan potongan daun bawang. Masak hingga empuk--Bahan kuah, siapkan air. Masukkan daun bawang, kaldu ayam, dan merica bubuk--Tata mie ayam. Letakkan mie, toping ayam dan siram dengan kuah.--" .
 
 data:resep_NASI_KEBULI_MAGICOM_KitaBerbagi a sr:MenuMasakan ;
-    rdfs:label "NASI KEBULI MAGICOM #KitaBerbagi"@id ;
+    rdfs:label "Nasi Kebuli Magicom"@id ;
     dcterms:identifier "REC_KAMBING_002" ;
     dcterms:subject "kambing"@id ;
     sr:hasCategory data:kategori_kambing ;
@@ -12106,14 +12117,14 @@ data:resep_NASI_KEBULI_MAGICOM_KitaBerbagi a sr:MenuMasakan ;
         data:bahan_Margarin,
         data:bahan_Minyak_goreng,
         data:bahan_Secukupnya_Air,
-        data:bahan_Secukupnya_Telur_dadar_emping_goreng_acar_bawang_goreng,
         data:bahan_elas_takar_Beras ;
     sr:hasLoves 337 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3292806-nasi-kebuli-magicom-kitaberbagi"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/730f8783c4c0f98a/300x426cq80/nasi-kebuli-magicom-kitaberbagi-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Panaskan margarin dan minyak, tumis bumbu halus smp harum, masukkan kayu manis, cengkeh, pekak, kapulaga, aduk rata--Masukkan daging, tumis smp berubah warna, masukkan bumbu kari bubuk (jika bumbunya kental tumis bersama kayu manis) aduk rata--Beri air smp daging terendam, masukkan lada bubuk dan garam, masak smp daging empuk. Matikan api (pd tahap ini cengkeh, kayu manis, kapulaga sy buang) test rasa, usahakan air terasa asin krn nanti akan ditambah air lagi--Cuci beras, masukkan ke panci magicom, tuang rebusan daging ke panci, tambah air sesuai takaran menanak nasi dg magicom, jk suka tekstur nasi yg ambyar sesuaikan sj airnya, aduk rata, tekan tombol cook, tunggu smp matang--Jadii deh...--Sajikan dg ditaburi bawang goreng beserta pelengkap seperti dadar telur, emping, acar--" .
 
 data:resep_Nasi_Goreng_Kambingala_kebon_sirih a sr:MenuMasakan ;
-    rdfs:label "Nasi Goreng Kambing...ala kebon sirih"@id ;
+    rdfs:label "Nasi Goreng Kambing Ala Kebon Sirih"@id ;
     dcterms:identifier "REC_KAMBING_001" ;
     dcterms:subject "kambing"@id ;
     sr:hasCategory data:kategori_kambing ;
@@ -12132,6 +12143,7 @@ data:resep_Nasi_Goreng_Kambingala_kebon_sirih a sr:MenuMasakan ;
         data:bahan_kapulaga ;
     sr:hasLoves 355 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/1041289-nasi-goreng-kambingala-kebon-sirih"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/d4139ae0475e2869/300x426cq80/nasi-goreng-kambingala-kebon-sirih-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Tumis kapulaga, bumbu halus, bubuk kari sampai harum masukkan daging kambing. Aduk rata--Tambahkan air secukupnya, beri garam, gula masak sampai daging empuk dan kuah mengental--Masukkan nasi dan kecap. Aduk2 sampai merata dan nasi agak mengering--Sajikan nasi goreng kambing dg acar kol, timun,emping dan bawang merah goreng--Ini beneran enaaak. Daging nya masak sampai empuuk ya, pakai kambing yg ada sedikit lemaknya spy lebih gurih--" .
 
 data:resep_Nasi_Kebuli a sr:MenuMasakan ;
@@ -12161,10 +12173,11 @@ data:resep_Nasi_Kebuli a sr:MenuMasakan ;
         data:bahan_minyak_goreng ;
     sr:hasLoves 214 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3338363-nasi-kebuli"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/57f05c55a1340823/300x426cq80/nasi-kebuli-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Rebus daging dengan air secukupnya sampai daging setengah matang. Angkat sisihkan.--Panaskan minyak tumis bumbu halus sampai harum tambahkan bumbu rempah halus tumis kembali sampai matang--Tambahkan air biarkan mendidih lalu masukkan daging, masak sampai matang. Matikan api--Cuci beras dan masukkan ke rice cooker lalu tuang air rebusan daging beserta dagingnya aduk2, (saya total cairan 350 ml ya, sesuaikan dg jenis beras masing2 ya) masak sampai matang--Sajikan dengan pelengkap--" .
 
 data:resep_Nasi_Kebuli_Kambing_Nikmat a sr:MenuMasakan ;
-    rdfs:label "Nasi Kebuli Kambing Nikmat !"@id ;
+    rdfs:label "Nasi Kebuli Kambing"@id ;
     dcterms:identifier "REC_KAMBING_005" ;
     dcterms:subject "kambing"@id ;
     sr:hasCategory data:kategori_kambing ;
@@ -12172,7 +12185,6 @@ data:resep_Nasi_Kebuli_Kambing_Nikmat a sr:MenuMasakan ;
         data:bahan_12_Biji_pala,
         data:bahan_15_Kg_potongan_Iga_kambingdomba,
         data:bahan_28_liter_air,
-        data:bahan_Bahan_YANG_DI_TABUR,
         data:bahan_Bawang_Bombay,
         data:bahan_Bawang_Merah,
         data:bahan_Bawang_Putih,
@@ -12186,8 +12198,6 @@ data:resep_Nasi_Kebuli_Kambing_Nikmat a sr:MenuMasakan ;
         data:bahan_Nanas,
         data:bahan_Pekak,
         data:bahan_adas_manis,
-        data:bahan_bahan_tambahan,
-        data:bahan_bumbu_yang_di_haluskan,
         data:bahan_embar_daun_jeruk,
         data:bahan_embar_daun_salam,
         data:bahan_jinten,
@@ -12205,7 +12215,7 @@ data:resep_Nasi_Kebuli_Kambing_Nikmat a sr:MenuMasakan ;
     sr:hasSteps "Panaskan minyak samin dalam panci biasa atau panci pressto, kemudian tumis bumbu halus hingga wangi--Bila di rasa sudah wangi si bumbu dan benar\"matang masukan kambing, garam,kaldu bubuk, aduk lalu masukkan air dan susu. Kemudin masukkan bumbu tabur dan bawang bombay yg sudah di potong\", tutup presto masak dengan api besar dulu. Bila uap presto mulai keluar langsung kecil kan api masak hingga 1 jam 30 menit (sampai empuk) tetapi bila tidak memasak dgn presto langsung masak dengan api kecil saja namun bisa lebih lama waktu memasaknya. Sekitar 2-3 jam.--Sembari menunggu kambing empuk masak dulu Acar dan Bawang goreng untuk pelengkapnya. (Cek di resep saya yg lain) bawang goreng & acar nanas timun--Kemudian bila suka bisa tambahkan bahan pelengkap juga seperti bawang bombai,tomat,bawang putih, dan cabai hijau untuk di goreng dengan sedikit minyak samin atau bisa juga mentega.--Jika sudah empuk si kambing coba rasakan kuah kaldunya. Bila sudah enak masak beras dengan kuah kaldu tersebut. Jangan lupa cuci berasnya dulu sebelum di masak.--Karena saya pakai beras basmati, takarannya 1kg beras air kaldunya 2 liter.--Saya masak dengan rice cooker, jd kaldunya saya saring dulu sebelum tercampur dengan beras. Agar tidak ribet nanti misah\"in rempah\" di dalam nasi. Jangan lupa angkat dagingnya dan taburi lada serta garam sedikit saja untuk nanti mau di bakar atau goreng bebas. Klo suka manis bisa beri sedikit kecap. Atau bisa di bumbui dengan apa saja sesuai selera kemudian nanti di bakar.--Ini hasil beras yg sudah matang dengan rice cooker.--Bila sudah lengkap semua, bisa di tata sebagus mungkin jangan lupa di tabur kismis, bawang goreng agar wangi dan menggugah selera untuk disantap bersama keluarga --Oya untuk daging kambing lebih bagus dengan kambing muda agar cepat empuk dan nikmat. Bagiannya yg enak buat nasi kebuli adalah tulang iga dan buntut. Duh nikmat banget deh..--Minyak samin juga bisa aja klo mau di ganti mentega. Tapi beda wanginya.--Kemudian jangan ragu masukin rempah\" karena nasi kebuli ini harus berani bumbu kalau mau nikmat! Lebih dari takaran saya juga bisa. Pokoknya kreasikan sendiri saja. Klo orang betawi arab biasanya suka nambahin bumbu gule instan. Biar medok rasanya. Cuma kalau saya tidak pakai karena ini rasanya udh arab banget buat saya. Wangi dan soft gak bikin eneg. Malah bikin nambah mulu  apa lagi ada cabai hijau yg di goreng dengan minyak samin sedikit. Haduh pedes nikmat--" .
 
 data:resep_Nasi_Kebuli_Mejikom_kitaberbagi a sr:MenuMasakan ;
-    rdfs:label "Nasi Kebuli Mejikom #kitaberbagi"@id ;
+    rdfs:label "Nasi Kebuli Magicom"@id ;
     dcterms:identifier "REC_KAMBING_003" ;
     dcterms:subject "kambing"@id ;
     sr:hasCategory data:kategori_kambing ;
@@ -12218,7 +12228,6 @@ data:resep_Nasi_Kebuli_Mejikom_kitaberbagi a sr:MenuMasakan ;
         data:bahan_Margarin,
         data:bahan_Secukupnya_air,
         data:bahan_bumbu_kari_instan,
-        data:bahan_bumbu_rempah_bisa_ganti_4sdm_bumbu_kari_kambing,
         data:bahan_bunga_lawang,
         data:bahan_elas_takar_mejikom_beras_cuci_bersih,
         data:bahan_kapulaga_ambil_bijinya,
@@ -12228,10 +12237,11 @@ data:resep_Nasi_Kebuli_Mejikom_kitaberbagi a sr:MenuMasakan ;
         data:bahan_minyak_goreng ;
     sr:hasLoves 241 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3273764-nasi-kebuli-mejikom-kitaberbagi"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/b357b67cfde1b9ab/300x426cq80/nasi-kebuli-mejikom-kitaberbagi-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Panaskan margarin dan minyak, tumis duo bawang smp harum. Masukkan juga bumbu rempah2. Setelah harum masuk daging dan aduk2 smp daging berubah warna.--Tambahkan air dan masak smp daging empuk.--Masukkan beras ke panci mejikom, beri rebusan daging. Krn nasbul itu teksturnya agak mawur/pera, jadi kenali berasnya untuk penambahan kuah kaldunya.--Masak nasi di mejikom smbl sesekali diaduk. Cicipin juga rasanya. Setelah ke posisi warm, aduk2 dan biarkan tanak 30menit.--Sajikan dgn pelengkap. Mimi pake telur dadar, acar timun dan emping.--" .
 
 data:resep_Nasi_Kebuli_Sapi_Magic_com a sr:MenuMasakan ;
-    rdfs:label "Nasi Kebuli Sapi Magic com"@id ;
+    rdfs:label "Nasi Kebuli Sapi Magic Com"@id ;
     dcterms:identifier "REC_SAPI_005" ;
     dcterms:subject "sapi"@id ;
     sr:hasCategory data:kategori_sapi ;
@@ -12253,6 +12263,7 @@ data:resep_Nasi_Kebuli_Sapi_Magic_com a sr:MenuMasakan ;
         data:bahan_jari_kayu_manis ;
     sr:hasLoves 249 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4260620-nasi-kebuli-sapi-magic-com"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/01876c67d6aafa03/300x426cq80/nasi-kebuli-sapi-magic-com-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Cuci bersih daging kemudian rebus hingga mendidih buang air rebusan nya&bilas hingga bersih kemudian rebus kembali hingga daging empuk,sisihkan--Panaskan margarine tumis bumbu halus hingga harum--Tambahkan bubuk kari,kayu manis&bumbu kari instan aduk rata--Kemudian masukan daging beserta air rebusan nya--Masak hingga bumbu meresap ke daging--Campurkan tumisan daging dengan beras yang telah di cuci aduk rata kemudian tekan tombol cook magic com di tengah proses memasak aduk nasi supaya bumbu nya merata *untuk takaran air nya bisa di sesuaikan seperti kita memasak nasi biasa--Begini penampakan nasi setelah matang--Sajikan nasi kebuli dengan pelengkap --Nb:bila tidak punya bubuk kari bisa kita siap kan sendiri rempah pengganti blender hingga halus  2 butir pekak/bunga lawang,2 buah kapulaga ambil biji nya saja,5 butir cengkeh,1/2 sdt jintan,2 sdt kayu manis bubuk--" .
 
 data:resep_Orek_tempe_basah_bumbu_ulek a sr:MenuMasakan ;
@@ -12263,7 +12274,6 @@ data:resep_Orek_tempe_basah_bumbu_ulek a sr:MenuMasakan ;
     sr:hasIngredient data:bahan_1_papan_tempe_potong_sesuai_selera,
         data:bahan_Bawang_Merah,
         data:bahan_Bawang_Putih,
-        data:bahan_Bumbu_halus,
         data:bahan_Kecap,
         data:bahan_Kemiri,
         data:bahan_Ketumbar,
@@ -12274,10 +12284,11 @@ data:resep_Orek_tempe_basah_bumbu_ulek a sr:MenuMasakan ;
         data:bahan_cabe_merah_kritingcabe_rawit ;
     sr:hasLoves 452 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3989566-orek-tempe-basah-bumbu-ulek"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/8f682da8c6ae6e37/300x426cq80/orek-tempe-basah-bumbu-ulek-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Goreng tempe yg sdh di potong2 dlm minyak panas hingga matang,jgn smpe kering yah--Tumis bumbu halus hingga harum dan benar2 matang,setelah bumbu matang tuangi air secukupnya,tuang kecap manis,gula,garam dan penyedap,tes rasanya--Jika rasa sdh pas masukan tempe dan cabe hijau lalu aduk hingga rata dan bumbu meresap,angkat dan sajikan --" .
 
 data:resep_Perkedel_Tahu_Simple a sr:MenuMasakan ;
-    rdfs:label "Perkedel Tahu Simple"@id ;
+    rdfs:label "Perkedel Tahu"@id ;
     dcterms:identifier "REC_TAHU_001" ;
     dcterms:subject "tahu"@id ;
     sr:hasCategory data:kategori_tahu ;
@@ -12291,6 +12302,7 @@ data:resep_Perkedel_Tahu_Simple a sr:MenuMasakan ;
         data:bahan_tahu_petak ;
     sr:hasLoves 481 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4337985-perkedel-tahu-simple"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/a2645cf9024d2e50/300x426cq80/perkedel-tahu-simple-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Giling halus bawang merah+bawang putih+ merica+garam.--Hancurkan tahu, tambahkan bumbu halus, daun seledri, aduk merata. Lalu masukkan terigu sedikit2. Koreksi rasa bl krg asin blh tmbhkan masako/ garam halus. Aduk hingga merata.--Bentuk adonan perkedel hingga adonan habis.--Goreng perkedel dlm minyak panas, jgn lupa dibalik. Angkat dan tiriskan.--Perkedel tahu udh jd, makin enk dicocol dg saus sambal--" .
 
 data:resep_Pindang_Tongkol_Suwir_Sambal_Matah a sr:MenuMasakan ;
@@ -12308,18 +12320,17 @@ data:resep_Pindang_Tongkol_Suwir_Sambal_Matah a sr:MenuMasakan ;
         data:bahan_pindang_tongkol_uk_sedang ;
     sr:hasLoves 197 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4017722-pindang-tongkol-suwir-sambal-matah"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/605b5b25b0f54153/300x426cq80/pindang-tongkol-suwir-sambal-matah-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Suwir kasar pindang tongkol lalu goreng dgn sedikit minyak di atas teflon, aduk terus sampai agak mengering--Campur bawang, cabe, sereh, daun jeruk, garam dan minyak kelapa lalu remas\" kemudian campur dgn ikan suwirnya, lalu kucuri dgn jeruk limau, aduk rata--Sajikan--" .
 
 data:resep_Sate_Telur_Gulung_Crispy_Ekonomis_Isi_Sosis_1_Resep_Jadi_24pcs a sr:MenuMasakan ;
-    rdfs:label "Sate Telur Gulung Crispy Ekonomis Isi Sosis | 1 Resep Jadi 24pcs"@id ;
+    rdfs:label "Sate Telur Gulung Isi Sosis"@id ;
     dcterms:identifier "REC_TELUR_002" ;
     dcterms:subject "telur"@id ;
     sr:hasCategory data:kategori_telur ;
     sr:hasIngredient data:bahan_1_blok_kaldu_ayam,
-        data:bahan_24_tusuk_sate_pastikan_salah_satu_ujungnya_diserut_lebih_kecil_sedikit_ya,
         data:bahan_Bawang_Putih,
         data:bahan_Ikan_telur_asin_mentah,
-        data:bahan_Rantang_tebal_atau_panci_seukuran_rantang_untuk_menggoreng_NOTE_sengaja_pake_ran,
         data:bahan_Secukupnya_minyak_goreng,
         data:bahan_air,
         data:bahan_garam,
@@ -12327,6 +12338,7 @@ data:resep_Sate_Telur_Gulung_Crispy_Ekonomis_Isi_Sosis_1_Resep_Jadi_24pcs a sr:M
         data:bahan_sosis_Potong_jadi_dua_Masing_masing_potongan_belah_empat_Jadi_1_sosis_bisa_dapat ;
     sr:hasLoves 245 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3168286-sate-telur-gulung-crispy-ekonomis-isi-sosis-1-resep-jadi-24pcs"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/0cbd714dc372d023/300x426cq80/sate-telur-gulung-crispy-ekonomis-isi-sosis-1-resep-jadi-24pcs-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Ambil satu potongan sosis, tusukan di tusukan sate pelan-pelan. Pastikan sebagian ujung tusuk satenya lebih pipih sehingga potongan sosis bisa masuk semua dengan sempurna. Lakukan sampai habis. Sisihkan.--Masukan sisa semua bahan ke dalam wadah yang ujungnya lancip atau yang bercorong, agar nanti mudah saat menuangkannya.--Selanjutnya, kocok telur sampai rata. Pastikan adonan tidak terlalu kental dan tidak terlalu encer.--Tempatkan rantang diatas kompor, tuangi minyak sampai 3/4-nya. Pastikan ketika tusuk satenya dicelupkan ke dalam minyak, sosisnya terendam semua ya.--Selanjutnya panaskan minyaknya dengan api sedang sampai benar-benar panas. Lalu celupkan 1/2 batang tusuk sate dengan tetap dipegang, diamkan sebentar sampai sosis matang.--Lalu dengan posisi tusuk sate masih terendam di minyak, tuang kocokan telur secukupnya sambil diaduk-aduk dengan arah melingkar pakai tusuk sate. Gulung secepatnya ke pinggir rantang untuk membantu telur tergulung dengan rapi. Setelah berwarna kuning keemasan. Angkat--Lakukan proses mengoreng sapai selesai. Tata sate telur-sosis di atas tisu makan.--Jika suka, potong gagang sate lebih pendek lagi. Jadi lebih rapi dan gak terlalu kepanjangan.--Sajikan hangat-hangat dengan saos sambal ataupun mayonnaise sesuai selera.--TIPS DAN TRICK: Setiap kali akan menuangkan adonan telor ke minyak, sebaiknya selalu dikocok terlebih dahulu, karena kalau tidak sering-sering dikocok, adonan putih telur akan mengendap dibawah, jadinya nanti kurang bagus hasilnya, jadi kurang bersarang dan menggumpal, juga jadi tidak crispy.--Ini versi mini karena itu 1 sosis sampai dipotong jadi 8, hasilnya jadi buanyaaak..--Kalau mau ukuran sate Telur lilit yang lebih besar lagi maka sosisnya cukup dipotong jadi 2. Dan kalau ukuran besar maka 1 resep bisa jadi 10-12 buah.--Untuk penggunaan Telur tidak harus melulu telur ayam atau bebek ya, ini saya nyoba pake telur puyuh juga hasilnya oke. 1 telur ayam bisa diganti dengan 4-5 telur puyuh.--Ini isiannya pentol dan telur puyuh, hasilnya gendutz semoxxxx :D--Untuk isian suka-suka aja ya, bisa telur puyuh rebus, potongan sosis, potongan tahu goreng, tempe goreng juga boleh.. Atau kadang lagi pengen original juga bisaa, jadi langsung celup aja tanpa pake isian.. Ok silahkan berkreasi sesuai selara aja ya.. ^^--Kenapa sih nggorengnya kok pake rantang? Alesannya biar lebih irit aja sih. Karena wajan cekung di rumah adanya ukuran jumbo..Mau pake panci juga kegedean. Haish... bisa tambah boros minyak kan. Makanya rantang nasi, rantang susu yg ukurannya mini jadi sasaran buat penggorengannya dah hehe..Monggo ditiru :D--Dikirimin rikuk sama temen nih... Emang anti gagal nih.. Bisa dicoba ^^--" .
 
 data:resep_Sempol_udang a sr:MenuMasakan ;
@@ -12336,7 +12348,6 @@ data:resep_Sempol_udang a sr:MenuMasakan ;
     sr:hasCategory data:kategori_udang ;
     sr:hasIngredient data:bahan_1_sct_kaldu_ayam_bubuk,
         data:bahan_Air,
-        data:bahan_Bahan_lapisan,
         data:bahan_Bawang_Putih,
         data:bahan_Daun_Bawang,
         data:bahan_Ikan_telur_asin_mentah,
@@ -12346,10 +12357,11 @@ data:resep_Sempol_udang a sr:MenuMasakan ;
         data:bahan_udang_kupas ;
     sr:hasLoves 249 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3881924-sempol-udang"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/801016764cf4d431/300x426cq80/sempol-udang-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Blender udang,bawang putih,telur hingga halus lalu tuang di wadah,masukan tepung2an dan bumbu lainnya aduk hingga rata--Didihkan air di wajan,bentuk sempolan di tusukan sate lalu rebus di air mendidih hingga matang,angkat dan tiriskan--Panaskan minyak yg byk di wajan,ambil sempolan lalu celup di bahan pencelup,goreng dlm minyak panas hingga matang,angkat dan sajikan dgn saus sambal --" .
 
 data:resep_Sop_Iga_Sapi_Enaaak_bangeet a sr:MenuMasakan ;
-    rdfs:label "Sop Iga Sapi Enaaak bangeet"@id ;
+    rdfs:label "Sop Iga Sapi"@id ;
     dcterms:identifier "REC_SAPI_002" ;
     dcterms:subject "sapi"@id ;
     sr:hasCategory data:kategori_sapi ;
@@ -12375,10 +12387,11 @@ data:resep_Sop_Iga_Sapi_Enaaak_bangeet a sr:MenuMasakan ;
         data:bahan_wortel_potong_sesuai_selera ;
     sr:hasLoves 375 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3310336-sop-iga-sapi-enaaak-bangeet%F0%9F%91%8C%F0%9F%91%8D"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/2bbf35fab1b5e3e2/300x426cq80/sop-iga-sapi-enaaak-bangeet%F0%9F%91%8C%F0%9F%91%8D-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Didihkan secukupnya air, lalu masukan potongan iga sapi, rebus kurleb 5 menit, angkat, tiriskan, buang airnya ya karena perebusan pertama ini utk menghilangkan darah dan sebagian lemak supaya airnya nanti tidak terlalu berlemak. Lalu rebus kembali daging iga dan 2 liter air sampai lunak. (Saya pakai pressure cooker 35 menit). Sisihkan.--Tumis potongan bawang bombay menggunakan margarine sampai harum dan sisinya berkaramel. Masukan bumbu halus, tumis lagi beberapa saat, kemudian masukan kayumanis, cengkeh dan kapulaga, tumis sampai matang.--Masukan tumisan bumbu yg sudah matang kedalam rebusan iga sapi, aduk rata. Nyalakan kompor. (Boleh ditambahkan air jika air menyusut banyak saat proses perebusan). Lalu masukan kentang dan wortel, beri garam, gula dan kaldu bubuk, masak sampai wortel dan kentang matang. Tes rasa. Matikan kompor. Terakhir masukan potongan batang daun bawang, aduk rata kembali. Angkat.--Sajikan hangat bersama nasi dan pelengkapnya.--" .
 
 data:resep_Sup_Baso_Ayam_Enoki_plus_Tahu a sr:MenuMasakan ;
-    rdfs:label "Sup Baso Ayam Enoki plus Tahu "@id ;
+    rdfs:label "Sup Bakso Ayam Enoki Tahu"@id ;
     dcterms:identifier "REC_TAHU_004" ;
     dcterms:subject "tahu"@id ;
     sr:hasCategory data:kategori_tahu ;
@@ -12398,10 +12411,11 @@ data:resep_Sup_Baso_Ayam_Enoki_plus_Tahu a sr:MenuMasakan ;
         data:bahan_wortel_iris_tipis ;
     sr:hasLoves 132 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4438476-sup-baso-ayam-enoki-plus-tahu-%F0%9F%8D%B2"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/2eefd09b0cef158f/300x426cq80/sup-baso-ayam-enoki-plus-tahu-%F0%9F%8D%B2-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Siapkan bahan. Jamur Enoki dan bawang bombai iris kecil2. Tahu potong kotak2 besar--Campurkan daging, jamur enoki, bawang bombai dan seluruh bumbu bakso--Aduk dengan rata hingga mengental--Panaskan air hingga mendidih kemudian masukkan seluruh bumbu sup. masukkan bakso daging dengan sendok satu per satu. Kemudian masukkan sayur dan tahu. Koreksi rasa jika perlu--Sajikan dalam keadaan hangat bersama dengan nasi hangat--" .
 
 data:resep_Tahu_Aci_Pedas_Manis_Bandung_RecookSenyRoss a sr:MenuMasakan ;
-    rdfs:label "Tahu Aci Pedas Manis #Bandung_RecookSenyRoss"@id ;
+    rdfs:label "Tahu Aci Pedas Manis"@id ;
     dcterms:identifier "REC_TAHU_003" ;
     dcterms:subject "tahu"@id ;
     sr:hasCategory data:kategori_tahu ;
@@ -12417,6 +12431,7 @@ data:resep_Tahu_Aci_Pedas_Manis_Bandung_RecookSenyRoss a sr:MenuMasakan ;
         data:bahan_tepung_kanji ;
     sr:hasLoves 136 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4045334-tahu-aci-pedas-manis-bandung_recooksenyross"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/953fa3a37727692f/300x426cq80/tahu-aci-pedas-manis-bandung_recooksenyross-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Haluskan tahu dgn sendok/garpu lalu campur dgn bumbu halus (takaran 1) lalu masukan kocokan telur serta tepung kanji beri garam dan merica, aduk rata--Adonan yg dihasilkan tdk terlalu padat asalkan bisa dibulat2kan saja--Panaskan air hingga mendidih lalu masukan bulatan Adonan, masak kurleb 10 menit atau sampai adonan mengambang lalu angkat, tiriskan dan tunggu hingga dingin--Panaskan minyak goreng lalu masukan hasil rebusan adonan tadi, goreng hingga matang kecoklatan dan berkulit, angkat tiriskan--Tumis sisa bumbu halus (takaran 2) sampai harum lalu masukan bahan saos, aduk rata, koreksi rasa lalu masukan bulatan Adonan yg sdh digoreng, masukan daun bawang, aduk rata--Sajikan--" .
 
 data:resep_Tahu_aci a sr:MenuMasakan ;
@@ -12424,10 +12439,8 @@ data:resep_Tahu_aci a sr:MenuMasakan ;
     dcterms:identifier "REC_TAHU_002" ;
     dcterms:subject "tahu"@id ;
     sr:hasCategory data:kategori_tahu ;
-    sr:hasIngredient data:bahan_Bahan_sambal_cocolan,
-        data:bahan_Bawang_Putih,
+    sr:hasIngredient data:bahan_Bawang_Putih,
         data:bahan_Cabe_rawit_ulek_kasar,
-        data:bahan_Campur_jd_satu,
         data:bahan_Daun_Bawang,
         data:bahan_Kecap,
         data:bahan_Secukupnya_air,
@@ -12438,6 +12451,7 @@ data:resep_Tahu_aci a sr:MenuMasakan ;
         data:bahan_tepung_tapioka ;
     sr:hasLoves 261 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4374296-tahu-aci"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/7bd2b8102e5d1a86/300x426cq80/tahu-aci-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Belah tahu membentuk segitiga lalu rendam dgn air garam,kerok dlm tahu lalu sisihkan tahunya,remas2 isian tahunya,sisihkan--Didihkan air di panci dgn bawang putih halus--Campur tepung dgn kaldu bubuk,garam daun bawang dan isi tahu yg sdh di remas2 td,tuangi air panas td sedikit2,aduk rata_--Panaskan minyak goreng yg byk,ambil tahu lalu beri isian,goreng dlm minyak panas hingga matang,jika tdk mau lgsg di goreng bs di rebus atau di kukus sebentar lalu simpan di kulkas --Klu mau buat stock di kulkas tahu aci bs di rebus sebentar atau di kukus dl yah bru di masukin kulkas,tp buat sy enak lgsg di goreng --" .
 
 data:resep_Tahu_kulit_bumbu_kecap a sr:MenuMasakan ;
@@ -12462,10 +12476,11 @@ data:resep_Tahu_kulit_bumbu_kecap a sr:MenuMasakan ;
         data:bahan_tomat_kecil ;
     sr:hasLoves 130 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4246164-tahu-kulit-bumbu-kecap"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/638ade1ee4da7e9d/300x426cq80/tahu-kulit-bumbu-kecap-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Panaskan wajan--Tumis semua bumbu samapi matang--Tambahkan 1 gelas air--Tamabahkan kecap manis--Masukan tahu kulit--Tunggu sampai airnya menyusut--Tes rasa--Angakt, sajikan--" .
 
 data:resep_Tauco_telor_ceplok a sr:MenuMasakan ;
-    rdfs:label "Tauco telor ceplok"@id ;
+    rdfs:label "Tauco Telur Ceplok"@id ;
     dcterms:identifier "REC_TELUR_005" ;
     dcterms:subject "telur"@id ;
     sr:hasCategory data:kategori_telur ;
@@ -12480,10 +12495,11 @@ data:resep_Tauco_telor_ceplok a sr:MenuMasakan ;
         data:bahan_petai ;
     sr:hasLoves 150 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3970221-tauco-telor-ceplok"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/d1223e87608b9ea0/300x426cq80/tauco-telor-ceplok-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Goreng telur mata sapi--Bawang merah, bawang putih, Tomat, cabe di iris dan pete di bagi dua--Tumis bawang lalu masukkan pete dan cabe, kemudian masukkan tomat dan tauco--Masukkan sedikit air, kecap manis dan gula, masak hingga mendidih--Masukan telor celpok sebentar agar bumbunya meresap ke telur. Cek rasa yahh--Sajikannn...--" .
 
 data:resep_Telur_ceplok_masak_tauco a sr:MenuMasakan ;
-    rdfs:label "Telur ceplok masak tauco"@id ;
+    rdfs:label "Telur Ceplok Masak Tauco"@id ;
     dcterms:identifier "REC_TELUR_003" ;
     dcterms:subject "telur"@id ;
     sr:hasCategory data:kategori_telur ;
@@ -12498,10 +12514,11 @@ data:resep_Telur_ceplok_masak_tauco a sr:MenuMasakan ;
         data:bahan_tomat_potong2 ;
     sr:hasLoves 192 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4001496-telur-ceplok-masak-tauco"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/4b6c85141d4cf5e8/300x426cq80/telur-ceplok-masak-tauco-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Tumis bawang duo bawang dan cabe2an hingga harum,masukan tomat,aduk rata,masukan tauco,kecap manis,kecap asin dan gula,aduk rata--Tuangi air secukupnya,tgu mendidih lalu masukan telur ceplok,masak hingga bumbu meresap,jgn lupa tes rasanya,jika rasa sdh pas angkat dan sajikan --" .
 
 data:resep_Telur_crispy a sr:MenuMasakan ;
-    rdfs:label "Telur crispy"@id ;
+    rdfs:label "Telur Crispy"@id ;
     dcterms:identifier "REC_TELUR_001" ;
     dcterms:subject "telur"@id ;
     sr:hasCategory data:kategori_telur ;
@@ -12512,6 +12529,7 @@ data:resep_Telur_crispy a sr:MenuMasakan ;
         data:bahan_tepung_maizena ;
     sr:hasLoves 301 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4024548-telur-crispy"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/1cf30e47ea0bcdbd/300x426cq80/telur-crispy-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Dadar telur tipis2 lalu potong2 persegi panjang--Campur tepung bumbu dgn maizena,lalu aduk rata--Celup telur ke dlm telur kocok lalu gulingkan ke tepung kering sambil di remas2 pelan,lalu goreng dlm minyak panas hingga kuning keemasan,angkat dan sajikan --" .
 
 data:resep_Tempe_Melet a sr:MenuMasakan ;
@@ -12530,6 +12548,7 @@ data:resep_Tempe_Melet a sr:MenuMasakan ;
         data:bahan_secukupnya_Trasi ;
     sr:hasLoves 280 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4354009-tempe-melet%F0%9F%91%85"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/733fdbc41002c6d0/300x426cq80/tempe-melet%F0%9F%91%85-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Potong tempe menjadi bbrp bagian,belah tengahnya jgn sampe putus ya.. Lebih baik potong tempe agak tebal,sisihkan--Tumis bahan isi,klo aku smua bahan aq blender dl br aku tumis smpe matang.. Terserah boleh tumis dl ato blender dl sesuai selera,beri sedikit garam--Lalu ambil tempe yg sudah dbelah td ambil isian masukkan ditengah2 tempe--Masukan tempe kedalam adonan tepung bumbu, Btw jgn terlalu encer dan kental ya adonannya..jgn lupa jg adonan tepung diberi daun bawang, lalu tempe siap digoreng hingga matang dan sajikan hangat2--" .
 
 data:resep_Tempe_Orek_Basah a sr:MenuMasakan ;
@@ -12552,10 +12571,11 @@ data:resep_Tempe_Orek_Basah a sr:MenuMasakan ;
         data:bahan_jeruk_limau_uk_besar_ambil_airnya ;
     sr:hasLoves 180 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4460395-tempe-orek-basah"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/384175f445139330/680x781cq80/tempe-orek-basah-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Goreng tempe yg sudah dipotong dadu sebentar sampai kecoklatan (jangan sampai kering ya)--Tumis bumbu halus, salam dan lengkuas menggunakan minyak sayur sampai harum dan matang. Lalu masukan air secukupnya. Aduk rata. Biarkan mendidih. Tuang kecap manis dan bumbu lainnya. Aduk rata kembali dan tes rasa.--Masukan tempe yg sudah digoreng tadi, aduk merata. Masak sampai bumbu meresap. Matikan kompor. Beri air perasan jeruk limau. Aduk rata. Siap disajikan.--Sajikan bersama nasi hangat.. sooo yummyy.--" .
 
 data:resep_Tempe_isi_Sambel a sr:MenuMasakan ;
-    rdfs:label "Tempe isi Sambel"@id ;
+    rdfs:label "Tempe Isi Sambal"@id ;
     dcterms:identifier "REC_TEMPE_003" ;
     dcterms:subject "tempe"@id ;
     sr:hasCategory data:kategori_tempe ;
@@ -12571,6 +12591,7 @@ data:resep_Tempe_isi_Sambel a sr:MenuMasakan ;
         data:bahan_sedikit_Air_matang ;
     sr:hasLoves 198 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4251330-tempe-isi-sambel"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/1be919990ea6afe3/300x426cq80/tempe-isi-sambel-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Ulek kasar semua bahan sambel kecuali kemangi, tumis sebentar dengan sedikit minyak. Beri kemangi, Sisihkan--Potong tempe dan iris tidak putus bagian tengahnya, isi sambel tumis tadi--Siapkan tepung bumbu beri air, adonan kental ya--Panaskan minyak goreng lalu lumuri tempe isi dengan adonan basah tepung sampai tertutup merata--Goreng hingga matang--Sajikan------" .
 
 data:resep_Tenggiri_kuah_asam_pedas a sr:MenuMasakan ;
@@ -12595,6 +12616,7 @@ data:resep_Tenggiri_kuah_asam_pedas a sr:MenuMasakan ;
         data:bahan_tomat_hijau_potong_kasar ;
     sr:hasLoves 242 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4460709-tenggiri-kuah-asam-pedas"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/b0768cde552893c5/680x781cq80/tenggiri-kuah-asam-pedas-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Cuci bersih ikan, lumuri air jeruk nipis, diamkan 15 menit, cuci kembali sampai bersih, sisihkan.--Rebus air dalam panci hingga mendidih.--Tumis bumbu sampai wangi, masukkan cabe, daun jeruk, kunyit, serai & jahe, aduk2 sampai layu, tuang tumisan bumbu kedalam panci berisi air mendidih, bumbui garam & gula, masukkan ikan, masak sampai mendidih kembali.--Masukkan belimbing wuluh & cabe rawit utuh, masak sampai bumbu meresap, tes rasa, sebelum diangkat masukkan irisan tomat hijau, matikan api, taburi daun bawang sajikan. (Boleh taburi daun kemangi bila suka)--" .
 
 data:resep_Udang_Asam_Pedas a sr:MenuMasakan ;
@@ -12616,6 +12638,7 @@ data:resep_Udang_Asam_Pedas a sr:MenuMasakan ;
         data:bahan_udang_agak_besar ;
     sr:hasLoves 118 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3838436-udang-asam-pedas"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/203a24677d15856e/300x426cq80/udang-asam-pedas-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Kupas udang, sisakan ekor dan belah punggung nya. Bersihkan dgn jeruk nipis dan garam. Bilas bersih dan tiriskan.--Panaskan minyak, tumis bumbu halus smp harum dan matang. Masuk udang adan aduk2 smp berubah warna.--Masukkan air, cabe iris, tomat dan belimbing sayur. Bumbui.--Setelah udang matang dan kuah mengental, masukkan asam jawa. Aduk2 bentaran dan siap disajikan...--" .
 
 data:resep_Udang_Asam_manis_pedas_sederhana a sr:MenuMasakan ;
@@ -12636,6 +12659,7 @@ data:resep_Udang_Asam_manis_pedas_sederhana a sr:MenuMasakan ;
         data:bahan_Saus_tomat ;
     sr:hasLoves 108 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/3836493-udang-asam-manis-pedas-sederhana"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/7d01b0659630933d/300x426cq80/udang-asam-manis-pedas-sederhana-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Bersihkan kulit udang, cuci bersih.--Cincang bawang putih, potong cabai rawit dan cabai merah besar. Potong miring bawang bombay--Panaskan minyak dicapur margarin secukupnya--Tumis bawang bombay hingga harum--Lalu masukkan bawang putih cincang dan semua cabai--Tambahkan air sedikit atau sesuai selera agar meresap pada udang--Tambahkan saos tomat, saori, garam, gula, merica daan penyedap rasa--Masukkan udang yang telah bersih--Campurkan.. Dan tunggu 5 menit atau terasa bumbu sudah meresap--Lalu sajikan--" .
 
 data:resep_Udang_Bakar a sr:MenuMasakan ;
@@ -12653,6 +12677,7 @@ data:resep_Udang_Bakar a sr:MenuMasakan ;
         data:bahan_udang_ukuran_agak_besar ;
     sr:hasLoves 144 ;
     sr:hasSourceURL "https://cookpad.com/id/resep/4376433-udang-bakar"^^xsd:anyURI ;
+    sr:hasImageURL "https://img-global.cpcdn.com/recipes/8e39874de3f69c37/300x426cq80/udang-bakar-foto-resep-utama.jpg"^^xsd:anyURI ;
     sr:hasSteps "Belah punggung udang, bersihkan tali hitamnya, cuci bersih--Kucuri perasan air jeruk nipis, aduk rata. Diamkan 10 menit. Cuci bersih--Beri 1 sdt garam. Remas2. Diamkan selama 15 menit. Tiriskan jika mengeluarkan air.--Lumuri udang dengan tepung tapioka tipis2. Goreng sebentar saja dalam minyak panas, hanya sampai berubah warna. Angkat. Tiriskan--Haluskan bawang merah dan bawang putih. Tumis di atas wajan sampai matang dan harum. Tambahkan kecap, saos sambal, garam, lada, dan kaldu bubuk. Aduk2 rata dengan api kecil. Koreksi rasa. Matikan api. Sisihkan--Lumuri udang dengan bumbu tumisan tadi hingga rata. Tusuk2 dengan lidi/tusukan sate. Diamkan minimal 15 menit.--Bakar di bara api atau teflon. Saya pakai fancy grill di atas kompor dengan api kecil. Tapi apapun alatnya, hasilnya tetap sama enaknya. Sajikan.--Note : fungsi menggoreng udang sebentar yg dilumuri tepung tapioka adalah supaya udang lebih empuk dan tidak keras setelah dibakar--" .
 
 sr:containsNutrient a owl:ObjectProperty ;
@@ -12732,22 +12757,22 @@ data:KolesterolTinggi a sr:KondisiKesehatan ;
     dcterms:identifier "KolesterolTinggi" .
 
 data:bahan_10_Cabe_Rawit_merahboleh_sesuaikan_kepedasan_lidah_masing2 a sr:BahanBaku ;
-    rdfs:label "10 Cabe Rawit merah,boleh + sesuaikan kepedasan lidah masing2"@id .
+    rdfs:label "10 cabai rawit merah"@id .
 
 data:bahan_10_cm_kayu_manis a sr:BahanBaku ;
     rdfs:label "10 cm kayu manis"@id .
 
 data:bahan_12_Biji_pala a sr:BahanBaku ;
-    rdfs:label "1/2 Biji pala"@id .
+    rdfs:label "1/2 biji pala"@id .
 
 data:bahan_12_bagian_biji_pala_uk_kecil a sr:BahanBaku ;
-    rdfs:label "1/2 bagian biji pala uk. kecil"@id .
+    rdfs:label "1/2 biji pala kecil"@id .
 
 data:bahan_12_bawang_bombai a sr:BahanBaku ;
     rdfs:label "1/2 bawang bombai"@id .
 
 data:bahan_12_pack_Kulit_puff_instant_saya_merkEdo a sr:BahanBaku ;
-    rdfs:label "1/2 pack Kulit puff instant saya merk.Edo"@id ;
+    rdfs:label "Kulit puff instan"@id ;
     sr:containsNutrient data:LemakJenuhTinggi .
 
 data:bahan_12_papan_tempe_potong_sesuai_selera a sr:BahanBaku ;
@@ -12755,36 +12780,36 @@ data:bahan_12_papan_tempe_potong_sesuai_selera a sr:BahanBaku ;
     sr:containsNutrient data:AlergenKacang .
 
 data:bahan_15_Kg_potongan_Iga_kambingdomba a sr:BahanBaku ;
-    rdfs:label "1,5 Kg potongan Iga kambing/domba"@id ;
+    rdfs:label "1,5 kg iga kambing/domba"@id ;
     sr:containsNutrient data:PurinTinggi .
 
 data:bahan_15_ruas_jari_jahe a sr:BahanBaku ;
     rdfs:label "1,5 ruas jari jahe"@id .
 
 data:bahan_1_Kaleng_Tuna_in_oil_pedas_saya_merk_Kingfisher a sr:BahanBaku ;
-    rdfs:label "1 Kaleng Tuna in oil pedas saya merk Kingfisher"@id .
+    rdfs:label "Tuna kaleng pedas"@id .
 
 data:bahan_1_Papan_Tempesaya_jadi_7_potong a sr:BahanBaku ;
-    rdfs:label "1 Papan Tempe,saya jadi 7 potong"@id ;
+    rdfs:label "1 papan tempe"@id ;
     sr:containsNutrient data:AlergenKacang .
 
 data:bahan_1_Tomat_Merah a sr:BahanBaku ;
-    rdfs:label "1 Tomat Merah"@id .
+    rdfs:label "1 tomat merah"@id .
 
 data:bahan_1_bks_bumbu_kare_instan a sr:BahanBaku ;
-    rdfs:label "1 bks bumbu kare instan"@id .
+    rdfs:label "1 bungkus bumbu kari instan"@id .
 
 data:bahan_1_blok_kaldu_ayam a sr:BahanBaku ;
     rdfs:label "1 blok kaldu ayam"@id .
 
 data:bahan_1_btg_kecil_kayu_manis a sr:BahanBaku ;
-    rdfs:label "1 btg kecil kayu manis"@id .
+    rdfs:label "1 batang kecil kayu manis"@id .
 
 data:bahan_1_btg_sereh_geprek a sr:BahanBaku ;
-    rdfs:label "1 btg sereh, geprek"@id .
+    rdfs:label "1 batang serai, geprek"@id .
 
 data:bahan_1_cm_kayumanis a sr:BahanBaku ;
-    rdfs:label "1 cm kayumanis"@id .
+    rdfs:label "1 cm kayu manis"@id .
 
 data:bahan_1_cm_lengkuas a sr:BahanBaku ;
     rdfs:label "1 cm lengkuas"@id .
@@ -12801,23 +12826,20 @@ data:bahan_1_papan_tempe_potong_sesuai_selera a sr:BahanBaku ;
     sr:containsNutrient data:AlergenKacang .
 
 data:bahan_1_papan_tempe_uk_sedang_potong_dadu a sr:BahanBaku ;
-    rdfs:label "1 papan tempe uk sedang, potong dadu"@id ;
+    rdfs:label "1 papan tempe ukuran sedang, potong dadu"@id ;
     sr:containsNutrient data:AlergenKacang .
 
 data:bahan_1_sct_kaldu_ayam_bubuk a sr:BahanBaku ;
-    rdfs:label "1 sct kaldu ayam bubuk"@id .
-
-data:bahan_24_tusuk_sate_pastikan_salah_satu_ujungnya_diserut_lebih_kecil_sedikit_ya a sr:BahanBaku ;
-    rdfs:label "24 tusuk sate, pastikan salah satu ujungnya diserut lebih kecil sedikit ya"@id .
+    rdfs:label "1 sachet kaldu ayam bubuk"@id .
 
 data:bahan_28_liter_air a sr:BahanBaku ;
-    rdfs:label "2,8 liter air"@id .
+    rdfs:label "Air 2,8 liter"@id .
 
 data:bahan_2_biji_cabai_merah_besar a sr:BahanBaku ;
     rdfs:label "2 biji cabai merah besar"@id .
 
 data:bahan_2_btg_sereh_iris_rajang a sr:BahanBaku ;
-    rdfs:label "2 btg sereh, iris rajang"@id .
+    rdfs:label "2 batang serai, iris"@id .
 
 data:bahan_2_cabe_merah_buang_biji a sr:BahanBaku ;
     rdfs:label "2 cabe merah, buang biji"@id .
@@ -12841,46 +12863,46 @@ data:bahan_300_daging_ayam_giling a sr:BahanBaku ;
     rdfs:label "300 daging ayam giling"@id .
 
 data:bahan_3_Cabe_Merah a sr:BahanBaku ;
-    rdfs:label "3 Cabe Merah"@id .
+    rdfs:label "3 cabai merah"@id .
 
 data:bahan_3_Cabe_merah_keriting a sr:BahanBaku ;
-    rdfs:label "3 Cabe merah keriting"@id .
+    rdfs:label "3 cabai merah keriting"@id .
 
 data:bahan_3_btr_telur a sr:BahanBaku ;
-    rdfs:label "3 btr telur"@id .
+    rdfs:label "3 butir telur"@id .
 
 data:bahan_3_cabe_rawit_merah a sr:BahanBaku ;
     rdfs:label "3 cabe rawit merah"@id .
 
 data:bahan_3_cm_Jahe a sr:BahanBaku ;
-    rdfs:label "3 cm Jahe"@id .
+    rdfs:label "3 cm jahe"@id .
 
 data:bahan_3_cm_jahe_memarkan a sr:BahanBaku ;
     rdfs:label "3 cm jahe, memarkan"@id .
 
 data:bahan_3_cup_beras_saya_pakai_beras_perak a sr:BahanBaku ;
-    rdfs:label "3 cup beras *saya pakai beras perak"@id .
+    rdfs:label "3 cup beras"@id .
 
 data:bahan_3_piring_nasi_putih_dingin a sr:BahanBaku ;
     rdfs:label "3 piring nasi putih dingin"@id .
 
 data:bahan_3_sedok_munjung_kanji a sr:BahanBaku ;
-    rdfs:label "3 sedok munjung kanji"@id .
+    rdfs:label "3 sendok munjung kanji"@id .
 
 data:bahan_4_Cabe_Rawit a sr:BahanBaku ;
-    rdfs:label "4 Cabe Rawit"@id .
+    rdfs:label "4 cabai rawit"@id .
 
 data:bahan_4_cangkir_air a sr:BahanBaku ;
     rdfs:label "4 cangkir air"@id .
 
 data:bahan_5_cabe_kriting_merah a sr:BahanBaku ;
-    rdfs:label "5 cabe kriting merah"@id .
+    rdfs:label "5 cabai merah keriting"@id .
 
 data:bahan_5_cm_Kayu_manis a sr:BahanBaku ;
-    rdfs:label "5 cm Kayu manis"@id .
+    rdfs:label "5 cm kayu manis"@id .
 
 data:bahan_5_ptg_ikan_tenggiri a sr:BahanBaku ;
-    rdfs:label "5 ptg ikan tenggiri"@id .
+    rdfs:label "5 potong ikan tenggiri"@id .
 
 data:bahan_8_biji_cabai_rawit a sr:BahanBaku ;
     rdfs:label "8 biji cabai rawit"@id .
@@ -12898,25 +12920,10 @@ data:bahan_Ayam a sr:BahanBaku ;
     sr:hasProtein "18.2"^^xsd:float .
 
 data:bahan_Ayam_bawang a sr:BahanBaku ;
-    rdfs:label "⭐ Ayam bawang"@id .
+    rdfs:label "Ayam bawang"@id .
 
 data:bahan_Ayam_potong_1216 a sr:BahanBaku ;
     rdfs:label "Ayam, potong 12/16"@id .
-
-data:bahan_Bahan_Isian a sr:BahanBaku ;
-    rdfs:label "Bahan Isian"@id .
-
-data:bahan_Bahan_Lain a sr:BahanBaku ;
-    rdfs:label "Bahan Lain"@id .
-
-data:bahan_Bahan_YANG_DI_TABUR a sr:BahanBaku ;
-    rdfs:label "Bahan YANG DI TABUR"@id .
-
-data:bahan_Bahan_lapisan a sr:BahanBaku ;
-    rdfs:label "Bahan lapisan"@id .
-
-data:bahan_Bahan_sambal_cocolan a sr:BahanBaku ;
-    rdfs:label "Bahan sambal cocolan"@id .
 
 data:bahan_Bawang_goreng a sr:BahanBaku ;
     rdfs:label "Bawang goreng"@id .
@@ -12943,12 +12950,6 @@ data:bahan_Bongkrek_tempe_bungkil a sr:BahanBaku ;
     sr:hasImageURL "https://cf.shopee.co.id/file/a7769b06122c01b56b932750fdbbd06d"^^xsd:anyURI ;
     sr:hasProtein "4.4"^^xsd:float .
 
-data:bahan_Bumbu_Halus a sr:BahanBaku ;
-    rdfs:label "Bumbu Halus"@id .
-
-data:bahan_Bumbu_halus a sr:BahanBaku ;
-    rdfs:label "Bumbu halus"@id .
-
 data:bahan_Bumbu_kari_instan a sr:BahanBaku ;
     rdfs:label "Bumbu kari instan"@id .
 
@@ -12961,15 +12962,12 @@ data:bahan_Cabe_rawit a sr:BahanBaku ;
 data:bahan_Cabe_rawit_ulek_kasar a sr:BahanBaku ;
     rdfs:label "Cabe rawit ulek kasar"@id .
 
-data:bahan_Campur_jd_satu a sr:BahanBaku ;
-    rdfs:label "Campur jd satu"@id .
-
 data:bahan_Emping_goreng a sr:BahanBaku ;
     rdfs:label "Emping goreng"@id ;
     sr:containsNutrient data:PurinTinggi .
 
 data:bahan_Ga4am a sr:BahanBaku ;
-    rdfs:label "Ga4am"@id .
+    rdfs:label "Garam"@id .
 
 data:bahan_Garam_dan_kaldu_jamur a sr:BahanBaku ;
     rdfs:label "Garam dan kaldu jamur"@id ;
@@ -13001,7 +12999,7 @@ data:bahan_Kacang_tanah_goreng a sr:BahanBaku ;
     sr:hasProtein "25.5"^^xsd:float .
 
 data:bahan_Kaldu_Bubuk_garam_gula a sr:BahanBaku ;
-    rdfs:label "Kaldu Bubuk, garam, gula"@id ;
+    rdfs:label "Kaldu bubuk, garam, gula"@id ;
     sr:containsNutrient data:NatriumTinggi .
 
 data:bahan_Kapulaga_ambil_bijinya a sr:BahanBaku ;
@@ -13094,10 +13092,10 @@ data:bahan_Minyak_untuk_menumis a sr:BahanBaku ;
     rdfs:label "Minyak untuk menumis"@id .
 
 data:bahan_Minyak_utk_Menumis a sr:BahanBaku ;
-    rdfs:label "Minyak utk Menumis"@id .
+    rdfs:label "Minyak untuk menumis"@id .
 
 data:bahan_Minyak_utk_menggoreng a sr:BahanBaku ;
-    rdfs:label "Minyak utk menggoreng"@id .
+    rdfs:label "Minyak untuk menggoreng"@id .
 
 data:bahan_Nanas a sr:BahanBaku ;
     rdfs:label "Nanas"@id ;
@@ -13111,14 +13109,11 @@ data:bahan_Nanas a sr:BahanBaku ;
 data:bahan_Pekak a sr:BahanBaku ;
     rdfs:label "Pekak"@id .
 
-data:bahan_Rantang_tebal_atau_panci_seukuran_rantang_untuk_menggoreng_NOTE_sengaja_pake_ran a sr:BahanBaku ;
-    rdfs:label "Rantang tebal atau panci seukuran rantang untuk menggoreng. NOTE: sengaja pake rantang biar minyak lebih irit"@id .
-
 data:bahan_Sambal_rawit a sr:BahanBaku ;
     rdfs:label "Sambal rawit"@id .
 
 data:bahan_Sambel a sr:BahanBaku ;
-    rdfs:label "Sambel"@id .
+    rdfs:label "Sambal"@id .
 
 data:bahan_Saori a sr:BahanBaku ;
     rdfs:label "Saori"@id .
@@ -13127,20 +13122,16 @@ data:bahan_Saus_tomat a sr:BahanBaku ;
     rdfs:label "Saus tomat"@id .
 
 data:bahan_Secukupnya_Air a sr:BahanBaku ;
-    rdfs:label "Secukupnya Air"@id .
-
-data:bahan_Secukupnya_Telur_dadar_emping_goreng_acar_bawang_goreng a sr:BahanBaku ;
-    rdfs:label "Secukupnya Telur dadar, emping goreng, acar, bawang goreng"@id ;
-    sr:containsNutrient data:PurinTinggi .
+    rdfs:label "Air secukupnya"@id .
 
 data:bahan_Secukupnya_air_didihkan_utk_rebusan_awal a sr:BahanBaku ;
-    rdfs:label "Secukupnya air didihkan utk rebusan awal"@id .
+    rdfs:label "Air untuk rebusan awal"@id .
 
 data:bahan_Secukupnya_air_matang a sr:BahanBaku ;
     rdfs:label "Secukupnya air matang"@id .
 
 data:bahan_Secukupnya_air_saya_pakai_air_kaldu_rebusan_daging a sr:BahanBaku ;
-    rdfs:label "Secukupnya air *saya pakai air kaldu rebusan daging"@id .
+    rdfs:label "Air kaldu secukupnya"@id .
 
 data:bahan_Secukupnya_garam_gula_dan_kaldu_bubuk_jika_suka a sr:BahanBaku ;
     rdfs:label "Secukupnya garam, gula, dan kaldu bubuk jika suka"@id ;
@@ -13209,10 +13200,10 @@ data:bahan_Telur_Ayam a sr:BahanBaku ;
     sr:hasProtein "12.8"^^xsd:float .
 
 data:bahan_Telur_Rebus_potong2 a sr:BahanBaku ;
-    rdfs:label "Telur Rebus potong2"@id .
+    rdfs:label "Telur rebus, potong-potong"@id .
 
 data:bahan_Tepung_Bumbu_serbagunakarna_ga_mau_ribet_bikin_tepung_sendiri a sr:BahanBaku ;
-    rdfs:label "Tepung Bumbu serbaguna,karna ga mau ribet bikin tepung sendiri"@id .
+    rdfs:label "Tepung bumbu serbaguna"@id .
 
 data:bahan_Tepung_bumbu_ayam_goreng_krispi_instan a sr:BahanBaku ;
     rdfs:label "Tepung bumbu ayam goreng krispi instan"@id .
@@ -13224,62 +13215,52 @@ data:bahan_adas_manis a sr:BahanBaku ;
     rdfs:label "adas manis"@id .
 
 data:bahan_air_400ml a sr:BahanBaku ;
-    rdfs:label "air +-400ml"@id .
+    rdfs:label "Air 400 ml"@id .
 
 data:bahan_air_secukupnya a sr:BahanBaku ;
-    rdfs:label "air/ secukupnya"@id .
+    rdfs:label "Air secukupnya"@id .
 
 data:bahan_ayam_Potong_potong a sr:BahanBaku ;
-    rdfs:label "ayam, Potong-potong"@id .
+    rdfs:label "Ayam, potong-potong"@id .
 
 data:bahan_ayam_bagian_apa_sajapotong_kecil a sr:BahanBaku ;
-    rdfs:label "ayam bagian apa saja,potong kecil\""@id .
+    rdfs:label "Ayam potong kecil"@id .
 
 data:bahan_ayam_giling a sr:BahanBaku ;
-    rdfs:label "ayam giling"@id .
-
-data:bahan_bahan_tambahan a sr:BahanBaku ;
-    rdfs:label "bahan tambahan"@id .
+    rdfs:label "Ayam giling"@id .
 
 data:bahan_baking_powder a sr:BahanBaku ;
-    rdfs:label "baking powder"@id .
+    rdfs:label "Baking powder"@id .
 
 data:bahan_bangkuang_kecil_cincang a sr:BahanBaku ;
-    rdfs:label "bangkuang kecil cincang"@id .
+    rdfs:label "Bengkuang kecil cincang"@id .
 
 data:bahan_bawang_bombai a sr:BahanBaku ;
-    rdfs:label "bawang bombai"@id .
+    rdfs:label "Bawang bombai"@id .
 
 data:bahan_bawang_bombai_ukuran_kecil a sr:BahanBaku ;
-    rdfs:label "bawang bombai ukuran kecil"@id .
+    rdfs:label "Bawang bombai ukuran kecil"@id .
 
 data:bahan_br_Daun_Jeruk a sr:BahanBaku ;
-    rdfs:label "br Daun Jeruk"@id .
+    rdfs:label "Daun jeruk"@id .
 
 data:bahan_br_Daun_salam a sr:BahanBaku ;
-    rdfs:label "br Daun salam"@id .
+    rdfs:label "Daun salam"@id .
 
 data:bahan_br_daun_pandan_iris_halus_dan_1_sereh_geprek a sr:BahanBaku ;
-    rdfs:label "br daun pandan iris halus dan 1 sereh geprek"@id .
+    rdfs:label "Daun pandan iris dan serai geprek"@id .
 
 data:bahan_bubuk_kari_instant a sr:BahanBaku ;
-    rdfs:label "bubuk kari instant"@id .
+    rdfs:label "Bubuk kari instan"@id .
 
 data:bahan_bumbu_kari_instan a sr:BahanBaku ;
-    rdfs:label "bumbu kari instan"@id .
-
-data:bahan_bumbu_rempah_bisa_ganti_4sdm_bumbu_kari_kambing a sr:BahanBaku ;
-    rdfs:label " bumbu rempah : bisa ganti 4sdm bumbu kari kambing"@id ;
-    sr:containsNutrient data:PurinTinggi .
-
-data:bahan_bumbu_yang_di_haluskan a sr:BahanBaku ;
-    rdfs:label "bumbu yang di haluskan"@id .
+    rdfs:label "Bumbu kari instan"@id .
 
 data:bahan_bunga_lawang a sr:BahanBaku ;
-    rdfs:label "bunga lawang"@id .
+    rdfs:label "Bunga lawang"@id .
 
 data:bahan_bunga_lawangpekak a sr:BahanBaku ;
-    rdfs:label "bunga lawang/pekak"@id .
+    rdfs:label "Bunga lawang/pekak"@id .
 
 data:bahan_cabai_rawit_merah_utuh a sr:BahanBaku ;
     rdfs:label "cabai rawit merah utuh"@id .
@@ -13309,7 +13290,7 @@ data:bahan_cabe_merah_keriting_iris_serong a sr:BahanBaku ;
     rdfs:label "cabe merah keriting, iris serong"@id .
 
 data:bahan_cabe_merah_kritingcabe_rawit a sr:BahanBaku ;
-    rdfs:label "cabe merah kriting/cabe rawit"@id .
+    rdfs:label "Cabai merah keriting/cabai rawit"@id .
 
 data:bahan_cabe_rawit_iris_serong a sr:BahanBaku ;
     rdfs:label "cabe rawit, iris serong"@id .
@@ -13330,19 +13311,19 @@ data:bahan_dashi_atau_kaldu_ayam a sr:BahanBaku ;
     rdfs:label "dashi atau kaldu ayam"@id .
 
 data:bahan_elas_air a sr:BahanBaku ;
-    rdfs:label "elas air"@id .
+    rdfs:label "Air"@id .
 
 data:bahan_elas_takar_Beras a sr:BahanBaku ;
-    rdfs:label "elas takar Beras"@id .
+    rdfs:label "Beras"@id .
 
 data:bahan_elas_takar_beras_160_gramgelas a sr:BahanBaku ;
-    rdfs:label "elas takar beras @160 gram/gelas"@id .
+    rdfs:label "Beras"@id .
 
 data:bahan_elas_takar_mejikom_beras_cuci_bersih a sr:BahanBaku ;
-    rdfs:label "elas takar mejikom beras, cuci bersih"@id .
+    rdfs:label "Beras, cuci bersih"@id .
 
 data:bahan_embar_daun_salam_robek_2 a sr:BahanBaku ;
-    rdfs:label "embar daun salam robek 2"@id .
+    rdfs:label "Daun salam, robek"@id .
 
 data:bahan_es_batu a sr:BahanBaku ;
     rdfs:label "es batu"@id .
@@ -13351,10 +13332,10 @@ data:bahan_es_batu_12_kg_an_air_es a sr:BahanBaku ;
     rdfs:label "es batu 1/2 kg an + air es"@id .
 
 data:bahan_gabus_kering_potong a sr:BahanBaku ;
-    rdfs:label "gabus kering potong\""@id .
+    rdfs:label "Ikan gabus kering, potong"@id .
 
 data:bahan_garam_sesuai_selera a sr:BahanBaku ;
-    rdfs:label "garam (sesuai selera"@id ;
+    rdfs:label "Garam sesuai selera"@id ;
     sr:containsNutrient data:NatriumTinggi .
 
 data:bahan_gula_merah_sisir a sr:BahanBaku ;
@@ -13370,7 +13351,7 @@ data:bahan_ikan_tenggiri_potong_bulat a sr:BahanBaku ;
     rdfs:label "ikan tenggiri, potong bulat"@id .
 
 data:bahan_iter_air a sr:BahanBaku ;
-    rdfs:label "iter air"@id .
+    rdfs:label "Air 2 liter"@id .
 
 data:bahan_jahe_haluskan a sr:BahanBaku ;
     rdfs:label "jahe haluskan"@id .
@@ -13401,7 +13382,7 @@ data:bahan_jinten a sr:BahanBaku ;
     rdfs:label "jinten"@id .
 
 data:bahan_kacang_pangjang a sr:BahanBaku ;
-    rdfs:label "kacang pangjang"@id ;
+    rdfs:label "Kacang panjang"@id ;
     sr:containsNutrient data:AlergenKacang .
 
 data:bahan_kapulaga a sr:BahanBaku ;
@@ -13414,19 +13395,19 @@ data:bahan_kayu_manis a sr:BahanBaku ;
     rdfs:label "kayu manis"@id .
 
 data:bahan_kayu_manis_5cm a sr:BahanBaku ;
-    rdfs:label "kayu manis 5cm"@id .
+    rdfs:label "Kayu manis 5 cm"@id .
 
 data:bahan_kayumanis_kurleb_3_cm a sr:BahanBaku ;
-    rdfs:label "kayumanis kurleb 3 cm"@id .
+    rdfs:label "Kayu manis 3 cm"@id .
 
 data:bahan_lada_halus a sr:BahanBaku ;
     rdfs:label "lada halus"@id .
 
 data:bahan_mbr_daun_jeruk_buang_tulang_dan_iris_tipis a sr:BahanBaku ;
-    rdfs:label "mbr daun jeruk, buang tulang dan iris tipis"@id .
+    rdfs:label "Daun jeruk, iris tipis"@id .
 
 data:bahan_mbr_daun_jeruk_sobek a sr:BahanBaku ;
-    rdfs:label "mbr daun jeruk, sobek"@id .
+    rdfs:label "Daun jeruk, sobek"@id .
 
 data:bahan_mie_telur a sr:BahanBaku ;
     rdfs:label "mie telur"@id .
@@ -13435,7 +13416,7 @@ data:bahan_minyak_samin_untuk_menumis_bumbu a sr:BahanBaku ;
     rdfs:label "minyak samin untuk menumis bumbu"@id .
 
 data:bahan_optional_Penyedap a sr:BahanBaku ;
-    rdfs:label "optional Penyedap"@id ;
+    rdfs:label "Penyedap rasa opsional"@id ;
     sr:containsNutrient data:NatriumTinggi .
 
 data:bahan_parutan_jahe a sr:BahanBaku ;
@@ -13446,7 +13427,7 @@ data:bahan_petai a sr:BahanBaku ;
     rdfs:label "petai"@id .
 
 data:bahan_pindang_tongkol_uk_sedang a sr:BahanBaku ;
-    rdfs:label "pindang tongkol uk. sedang"@id .
+    rdfs:label "Pindang tongkol ukuran sedang"@id .
 
 data:bahan_pokcoy a sr:BahanBaku ;
     rdfs:label "pokcoy"@id .
@@ -13466,10 +13447,10 @@ data:bahan_santan_kara a sr:BahanBaku ;
     sr:containsNutrient data:LemakJenuhTinggi .
 
 data:bahan_saos_sambal a sr:BahanBaku ;
-    rdfs:label "saos sambal"@id .
+    rdfs:label "Saus sambal"@id .
 
 data:bahan_saos_tiram a sr:BahanBaku ;
-    rdfs:label "saos tiram"@id .
+    rdfs:label "Saus tiram"@id .
 
 data:bahan_saus_cabai a sr:BahanBaku ;
     rdfs:label "saus cabai"@id .
@@ -13485,31 +13466,31 @@ data:bahan_secukupnya_Boncabechili_flakes a sr:BahanBaku ;
     rdfs:label "secukupnya Boncabe/chili flakes"@id .
 
 data:bahan_secukupnya_Garam a sr:BahanBaku ;
-    rdfs:label "secukupnya Garam"@id ;
+    rdfs:label "Garam secukupnya"@id ;
     sr:containsNutrient data:NatriumTinggi .
 
 data:bahan_secukupnya_Garam_dan_lada a sr:BahanBaku ;
-    rdfs:label "secukupnya Garam dan lada"@id ;
+    rdfs:label "Garam dan lada secukupnya"@id ;
     sr:containsNutrient data:NatriumTinggi .
 
 data:bahan_secukupnya_Garam_gula_lada_bubuk a sr:BahanBaku ;
-    rdfs:label "secukupnya Garam, gula & lada bubuk"@id ;
+    rdfs:label "Garam, gula, dan lada bubuk secukupnya"@id ;
     sr:containsNutrient data:NatriumTinggi .
 
 data:bahan_secukupnya_Gula a sr:BahanBaku ;
-    rdfs:label "secukupnya Gula"@id .
+    rdfs:label "Gula secukupnya"@id .
 
 data:bahan_secukupnya_Kismis a sr:BahanBaku ;
-    rdfs:label "secukupnya Kismis"@id .
+    rdfs:label "Kismis secukupnya"@id .
 
 data:bahan_secukupnya_Sayuran_daun_kubis a sr:BahanBaku ;
-    rdfs:label "secukupnya Sayuran daun kubis"@id .
+    rdfs:label "Sayuran dan daun kubis secukupnya"@id .
 
 data:bahan_secukupnya_Tomat a sr:BahanBaku ;
-    rdfs:label "secukupnya Tomat"@id .
+    rdfs:label "Tomat secukupnya"@id .
 
 data:bahan_secukupnya_Trasi a sr:BahanBaku ;
-    rdfs:label "secukupnya Trasi"@id .
+    rdfs:label "Terasi secukupnya"@id .
 
 data:bahan_secukupnya_bawang_goreng a sr:BahanBaku ;
     rdfs:label "secukupnya bawang goreng"@id .
@@ -13533,16 +13514,16 @@ data:bahan_secukupnya_minyak_samin_untuk_grill_kambing_tomat a sr:BahanBaku ;
     sr:containsNutrient data:PurinTinggi .
 
 data:bahan_sedikit_Air_matang a sr:BahanBaku ;
-    rdfs:label "sedikit Air matang"@id .
+    rdfs:label "Air matang sedikit"@id .
 
 data:bahan_serai a sr:BahanBaku ;
     rdfs:label "serai"@id .
 
 data:bahan_sledry a sr:BahanBaku ;
-    rdfs:label "sledry"@id .
+    rdfs:label "Seledri"@id .
 
 data:bahan_sosis_Potong_jadi_dua_Masing_masing_potongan_belah_empat_Jadi_1_sosis_bisa_dapat a sr:BahanBaku ;
-    rdfs:label "sosis. Potong jadi dua. Masing-masing potongan belah empat. Jadi 1 sosis bisa dapat 8 potong. Total 24 potong"@id .
+    rdfs:label "Sosis, potong kecil"@id .
 
 data:bahan_susu_plainfull_cream a sr:BahanBaku ;
     rdfs:label "susu plain/full cream"@id .
@@ -13783,7 +13764,7 @@ data:bahan_Secukupnya_minyak_goreng a sr:BahanBaku ;
     rdfs:label "Secukupnya minyak goreng"@id .
 
 data:bahan_embar_daun_jeruk a sr:BahanBaku ;
-    rdfs:label "embar daun jeruk"@id .
+    rdfs:label "Daun jeruk"@id .
 
 data:bahan_garam a sr:BahanBaku ;
     rdfs:label "garam"@id ;
@@ -13877,7 +13858,7 @@ data:bahan_air a sr:BahanBaku ;
     rdfs:label "air"@id .
 
 data:bahan_embar_daun_salam a sr:BahanBaku ;
-    rdfs:label "embar daun salam"@id .
+    rdfs:label "Daun salam"@id .
 
 sr:KandunganGizi a owl:Class ;
     rdfs:label "Kandungan Gizi"@id .
@@ -13974,4 +13955,3 @@ sr:MenuMasakan a owl:Class ;
 
 sr:BahanBaku a owl:Class ;
     rdfs:label "Bahan Baku"@id .
-
